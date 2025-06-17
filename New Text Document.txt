@@ -1,0 +1,20 @@
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Flask test app running on port 5016!"
+
+@app.route('/payment-callback', methods=['GET'])
+def payment_callback():
+    tx_ref = request.args.get('tx_ref')
+    print("Payment callback hit! tx_ref:", tx_ref) 
+    return jsonify({
+        "status": "success",
+        "message": "Callback received",
+        "tx_ref": tx_ref
+    }), 200
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, debug=True)

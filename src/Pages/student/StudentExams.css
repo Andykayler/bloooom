@@ -1,0 +1,484 @@
+/* Base styles */
+.container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f5f7fa;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  /* Loading and error states */
+  .loading-state, .error-state, .no-exams {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .spinner {
+    animation: spin 1s linear infinite;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+  .error-icon {
+    color: #dc3545;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Header and filters */
+  .header {
+    margin-bottom: 2rem;
+  }
+  
+  .header-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header-filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .filter-select {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Exams list */
+  .exams-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .exam-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    transition: transform 0.2s;
+  }
+  
+  .exam-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .exam-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .exam-status-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  
+  .exam-status-badge.upcoming {
+    background-color: #e3f2fd;
+    color: #1976d2;
+  }
+  
+  .exam-status-badge.completed {
+    background-color: #e8f5e9;
+    color: #388e3c;
+  }
+  
+  .exam-status-badge.missed {
+    background-color: #ffebee;
+    color: #d32f2f;
+  }
+  
+  .exam-card-details {
+    display: grid;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .exam-detail {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #555;
+  }
+  
+  .exam-card-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .missed-message {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #d32f2f;
+  }
+  
+  /* Exam taking interface */
+  .exam-taking-container {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 2rem;
+  }
+  
+  .exam-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .exam-title h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .exam-title p {
+    margin: 0.25rem 0 0;
+    color: #666;
+  }
+  
+  .exam-timer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .timer-display {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .timer-warning {
+    background-color: #fff3e0;
+    color: #e65100;
+  }
+  
+  .exam-content {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .question-panel {
+    flex: 1;
+  }
+  
+  .question-number {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .question-text {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .marks-info {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  .answer-section {
+    margin-bottom: 2rem;
+  }
+  
+  .multiple-choice-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .text-answer, .essay-answer {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+  }
+  
+  .essay-answer {
+    min-height: 200px;
+    resize: vertical;
+  }
+  
+  .question-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .question-navigation {
+    width: 250px;
+    background-color: #f5f7fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .navigation-header {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .question-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .question-button {
+    width: 100%;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+  }
+  
+  .question-button.current {
+    border-color: #1976d2;
+    background-color: #e3f2fd;
+    color: #1976d2;
+  }
+  
+  .question-button.answered {
+    border-color: #388e3c;
+    background-color: #e8f5e9;
+    color: #388e3c;
+  }
+  
+  .question-button.marked {
+    border-color: #ffa000;
+    background-color: #fff3e0;
+    color: #ffa000;
+  }
+  
+  .question-button.visited {
+    border-color: #7b1fa2;
+    background-color: #f3e5f5;
+    color: #7b1fa2;
+  }
+  
+  .legend {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .legend-color {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+  }
+  
+  .legend-color.current {
+    background-color: #e3f2fd;
+    border-color: #1976d2;
+  }
+  
+  .legend-color.answered {
+    background-color: #e8f5e9;
+    border-color: #388e3c;
+  }
+  
+  .legend-color.marked {
+    background-color: #fff3e0;
+    border-color: #ffa000;
+  }
+  
+  .legend-color.visited {
+    background-color: #f3e5f5;
+    border-color: #7b1fa2;
+  }
+  
+  .exam-summary {
+    display: grid;
+    gap: 0.75rem;
+  }
+  
+  .summary-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+  }
+  
+  /* Exam result */
+  .exam-result {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .result-details {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .score-display {
+    margin: 2rem 0;
+  }
+  
+  .score-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #e3f2fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+  }
+  
+  .score-percentage {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1976d2;
+  }
+  
+  .score-text {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .teacher-review-notice {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #fff3e0;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+  
+  /* Modal */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: white;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    overflow: hidden;
+  }
+  
+  .modal-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .modal-title {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  .modal-body {
+    padding: 1.5rem;
+  }
+  
+  .modal-footer {
+    padding: 1rem 1.5rem;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+  
+  /* Buttons */
+  .btn {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+  
+  .btn-primary {
+    background-color: #1976d2;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #1565c0;
+  }
+  
+  .btn-outline {
+    background: transparent;
+    border: 1px solid #ddd;
+    color: #555;        }

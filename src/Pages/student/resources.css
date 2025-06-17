@@ -1,0 +1,2251 @@
+:root {
+  --ironman: #2f81f7;
+  --ironman-dark: #1f6feb;
+  --ironman-light: rgba(47, 129, 247, 0.1);
+  --black-panther: #e6edf3;
+  --black-widow: #7d8590;
+  --nick-fury: #484f58;
+  --thanos-dark: #0d1117;
+  --thanos-darker: #010409;
+  --thanos-light: #161b22;
+  --thanos-lighter: #21262d;
+  --vibranium: #30363d;
+  --vibranium-light: #484f58;
+  --wakanda: #161b22;
+  --hulk: #238636;
+  --scarlet-witch: #f85149;
+  --thor: #d29922;
+  --star-lord: #f78166;
+  --shadow-realm: 0 8px 24px rgba(1, 4, 9, 0.5);
+  --quicksilver: all 0.2s ease;
+}
+
+/* Avengers Academy - Main Container */
+.avengers-academy {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Shield Headquarters - Main Content */
+.shield-hq {
+  flex: 1;
+  padding: 20px;
+  background-color: var(--thanos-dark);
+}
+
+/* Stark Tower - Sidebar */
+.stark-tower {
+  width: 280px;
+  background-color: var(--wakanda);
+  border-left: 1px solid var(--vibranium);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+}
+
+/* Fury's Command - Header */
+.fury-command {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--vibranium);
+}
+
+.fury-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.avengers-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mission-info {
+  color: var(--black-widow);
+  font-size: 13px;
+}
+
+.fury-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Jarvis Search */
+.jarvis-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.jarvis-search i {
+  position: absolute;
+  left: 12px;
+  color: var(--black-widow);
+}
+
+.jarvis-search input {
+  width: 240px;
+  height: 36px;
+  padding: 8px 12px 8px 36px;
+  background-color: var(--thanos-light);
+  border: 1px solid var(--vibranium);
+  border-radius: 6px;
+  color: var(--black-panther);
+  font-size: 14px;
+  transition: var(--quicksilver);
+}
+
+.jarvis-search input:focus {
+  outline: none;
+  border-color: var(--ironman);
+  box-shadow: 0 0 0 3px rgba(47, 129, 247, 0.3);
+}
+
+.arc-reactor-btn {
+  background-color: var(--ironman);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--quicksilver);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 36px;
+}
+
+.arc-reactor-btn:hover {
+  background-color: var(--ironman-dark);
+}
+
+/* Quinjet Hanger - Resource Display */
+.quinjet-hanger {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Holo-Display - Resource Viewer */
+.holo-display {
+  background-color: var(--wakanda);
+  border: 1px solid var(--vibranium);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.holo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid var(--vibranium);
+}
+
+.holo-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.holo-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.avengers-btn {
+  background: none;
+  border: 1px solid var(--vibranium);
+  color: var(--black-panther);
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: var(--quicksilver);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.avengers-btn:hover {
+  background-color: var(--thanos-light);
+}
+
+.edit-suit-btn:hover {
+  color: var(--ironman);
+  border-color: var(--ironman);
+}
+
+.destroy-btn:hover {
+  color: var(--scarlet-witch);
+  border-color: var(--scarlet-witch);
+}
+
+.holo-content {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--thanos-darker);
+}
+
+/* Stark Tech - Video Viewer */
+.stark-tech {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.stark-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+
+.tech-controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0 15px;
+  gap: 10px;
+}
+
+.tech-btn {
+  background: none;
+  border: none;
+  color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--quicksilver);
+}
+
+.tech-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.volume-slider {
+  width: 80px;
+  height: 4px;
+  -webkit-appearance: none;
+  background: var(--black-widow);
+  border-radius: 2px;
+  outline: none;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  background: var(--ironman);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.time-slider {
+  flex: 1;
+  height: 4px;
+  -webkit-appearance: none;
+  background: var(--black-widow);
+  border-radius: 2px;
+  outline: none;
+}
+
+.time-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  background: var(--ironman);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.time-display {
+  font-size: 12px;
+  color: var(--black-panther);
+  min-width: 90px;
+  text-align: center;
+}
+
+/* Pym Particles - Document Viewer */
+.pym-particles {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pym-iframe {
+  flex: 1;
+  border: none;
+  background-color: white;
+}
+
+.pym-actions {
+  padding: 15px;
+  border-top: 1px solid var(--vibranium);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.download-beam {
+  background-color: var(--ironman);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: var(--quicksilver);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.download-beam:hover {
+  background-color: var(--ironman-dark);
+}
+
+/* Asgard Gallery - Image Viewer */
+.asgard-gallery {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.bifrost-image {
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-actions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+/* Web of Links - Link Viewer */
+.web-of-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.web-preview {
+  background-color: var(--wakanda);
+  border: 1px solid var(--vibranium);
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.web-thumbnail {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.sling-ring {
+  background-color: var(--ironman);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: var(--quicksilver);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  width: 100%;
+  justify-content: center;
+}
+
+.sling-ring:hover {
+  background-color: var(--ironman-dark);
+}
+
+/* Quantum Realm - Default Viewer */
+.quantum-realm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  gap: 20px;
+}
+
+/* Empty Sanctum */
+.empty-sanctum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  color: var(--black-widow);
+}
+
+.empty-sanctum i {
+  font-size: 48px;
+  color: var(--nick-fury);
+}
+
+/* Resource Data - Meta Info */
+.resource-data {
+  display: flex;
+  gap: 20px;
+  padding: 15px 20px;
+  border-top: 1px solid var(--vibranium);
+}
+
+.data-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--black-widow);
+}
+
+.data-item i {
+  color: var(--ironman);
+}
+
+/* Avengers Armory - Resources List */
+.avengers-armory {
+  background-color: var(--wakanda);
+  border: 1px solid var(--vibranium);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.armory-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid var(--vibranium);
+}
+
+.armory-tabs {
+  display: flex;
+  gap: 5px;
+}
+
+.armory-tab {
+  background: none;
+  border: 1px solid var(--vibranium);
+  color: var(--black-widow);
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: var(--quicksilver);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.armory-tab:hover {
+  background-color: var(--thanos-light);
+  color: var(--black-panther);
+}
+
+.armory-tab.active {
+  background-color: var(--ironman-light);
+  color: var(--ironman);
+  border-color: var(--ironman);
+}
+
+.armory-controls {
+  display: flex;
+  gap: 5px;
+}
+
+/* Avengers Grid - Resources Grid */
+.avengers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.avenger-card {
+  background-color: var(--thanos-light);
+  border: 1px solid var(--vibranium);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: var(--quicksilver);
+  cursor: pointer;
+}
+
+.avenger-card:hover {
+  border-color: var(--ironman);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-realm);
+}
+
+.avenger-card.active {
+  border-color: var(--ironman);
+  box-shadow: 0 0 0 2px var(--ironman);
+}
+
+.card-image {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.avenger-card:hover .card-image img {
+  transform: scale(1.05);
+}
+
+.video-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 10px;
+}
+
+.card-info {
+  padding: 12px;
+}
+
+.card-name {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-type {
+  font-size: 12px;
+  color: var(--black-widow);
+}
+
+.card-menu {
+  padding: 0 12px 12px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Empty Vault */
+.empty-vault {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 15px;
+  text-align: center;
+  color: var(--black-widow);
+}
+
+.empty-vault i {
+  font-size: 48px;
+  color: var(--nick-fury);
+}
+
+.empty-vault .arc-reactor-btn {
+  margin-top: 10px;
+}
+
+/* Stark Tower Sections */
+.tower-section {
+  padding: 20px;
+  border-bottom: 1px solid var(--vibranium);
+}
+
+.tower-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tower-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tower-title h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.tower-code {
+  font-size: 12px;
+  color: var(--black-widow);
+  background-color: var(--thanos-light);
+  padding: 2px 6px;
+  border-radius: 12px;
+}
+
+.tower-menu-btn {
+  background: none;
+  border: none;
+  color: var(--black-widow);
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--quicksilver);
+}
+
+.tower-menu-btn:hover {
+  background-color: var(--thanos-light);
+  color: var(--black-panther);
+}
+
+.tower-subheader {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--black-widow);
+  margin-bottom: 15px;
+}
+
+.mission-list ul, 
+.tower-section ul {
+  list-style: none;
+}
+
+.mission-list li, 
+.tower-section li {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: var(--quicksilver);
+}
+
+.mission-list li {
+  padding: 8px 12px;
+  margin-bottom: 4px;
+}
+
+.mission-list li i, 
+.tower-section li i:first-child {
+  margin-right: 10px;
+  color: var(--black-widow);
+  width: 20px;
+  text-align: center;
+}
+
+.mission-list li span, 
+.tower-section li span {
+  flex: 1;
+}
+
+.mission-list li i:last-child, 
+.tower-section li i:last-child {
+  color: var(--nick-fury);
+  font-size: 12px;
+}
+
+.mission-list li:hover, 
+.tower-section li:hover {
+  background-color: var(--thanos-light);
+}
+
+.mission-list li.active {
+  background-color: var(--ironman-light);
+  color: var(--ironman);
+}
+
+.mission-list li.active i {
+  color: var(--ironman);
+}
+
+.add-mission {
+  color: var(--ironman);
+}
+
+.add-mission i {
+  color: var(--ironman) !important;
+}
+
+/* Tony's Profile */
+.tony-profile {
+  margin-top: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-top: 1px solid var(--vibranium);
+}
+
+.profile-snap {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--ironman);
+}
+
+.profile-data {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.profile-role {
+  font-size: 12px;
+  color: var(--black-widow);
+}
+
+.profile-settings {
+  background: none;
+  border: none;
+  color: var(--black-widow);
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--quicksilver);
+}
+
+.profile-settings:hover {
+  background-color: var(--thanos-light);
+  color: var(--black-panther);
+}
+
+/* SHIELD Modal */
+.shield-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(1, 4, 9, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-tech {
+  background-color: var(--wakanda);
+  border: 1px solid var(--vibranium);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: var(--shadow-realm);
+}
+
+.modal-command {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid var(--vibranium);
+}
+
+.modal-command h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.close-tech {
+  background: none;
+  border: none;
+  color: var(--black-widow);
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--quicksilver);
+}
+
+.close-tech:hover {
+  background-color: var(--thanos-light);
+  color: var(--black-panther);
+}
+
+.modal-core {
+  padding: 20px;
+}
+
+.tech-group {
+  margin-bottom: 20px;
+}
+
+.tech-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.tech-input, 
+.tech-select {
+  width: 100%;
+  height: 40px;
+  padding: 8px 12px;
+  background-color: var(--thanos-light);
+  border: 1px solid var(--vibranium);
+  border-radius: 6px;
+  color: var(--black-panther);
+  font-size: 14px;
+  transition: var(--quicksilver);
+}
+
+.tech-input:focus, 
+.tech-select:focus {
+  outline: none;
+  border-color: var(--ironman);
+  box-shadow: 0 0 0 3px rgba(47, 129, 247, 0.3);
+}
+
+.tech-row {
+  display: flex;
+  gap: 15px;
+}
+
+.tech-row .tech-group {
+  flex: 1;
+}
+
+.upload-tech {
+  width: 100%;
+}
+
+.upload-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background-color: var(--thanos-light);
+  border: 1px dashed var(--vibranium);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: var(--quicksilver);
+}
+
+.upload-label:hover {
+  border-color: var(--ironman);
+  background-color: var(--thanos-lighter);
+}
+
+.upload-label i {
+  color: var(--black-widow);
+}
+
+.upload-label span {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--black-widow);
+}
+
+.thumbnail-preview {
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 120px;
+  border-radius: 4px;
+  border: 1px solid var(--vibranium);
+}
+
+.modal-actions {
+  padding: 20px;
+  border-top: 1px solid var(--vibranium);
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.shield-btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--quicksilver);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.shield-btn-secondary {
+  background-color: var(--thanos-light);
+  color: var(--black-panther);
+  border: 1px solid var(--vibranium);
+}
+
+.shield-btn-secondary:hover {
+  background-color: var(--thanos-lighter);
+  border-color: var(--vibranium-light);
+}
+
+.shield-btn-primary {
+  background-color: var(--ironman);
+  color: white;
+  border: 1px solid var(--ironman);
+}
+
+.shield-btn-primary:hover {
+  background-color: var(--ironman-dark);
+  border-color: var(--ironman-dark);
+}
+
+/* Responsive Design - Adapting to Battle Conditions */
+@media (max-width: 1200px) {
+  .stark-tower {
+    width: 240px;
+  }
+  
+  .avengers-grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+}
+
+@media (max-width: 992px) {
+  .avengers-academy {
+    flex-direction: column;
+  }
+  
+  .stark-tower {
+    width: 100%;
+    height: auto;
+    border-left: none;
+    border-top: 1px solid var(--vibranium);
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .tower-section {
+    flex: 1;
+    min-width: 250px;
+    border-bottom: none;
+    border-right: 1px solid var(--vibranium);
+  }
+  
+  .tony-profile {
+    width: 100%;
+    border-top: 1px solid var(--vibranium);
+  }
+}
+
+@media (max-width: 768px) {
+  .fury-command {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .fury-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .jarvis-search input {
+    width: 180px;
+  }
+  
+  .resource-data {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .tech-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .avengers-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .modal-tech {
+    width: 95%;
+  }
+  
+  .fury-right {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .jarvis-search input {
+    width: 100%;
+  }
+  
+  .arc-reactor-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}/* Floating Chat Button */
+.floating-chat-button {
+  background-color: #2f81f7; /* Blue for chat button */
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, background-color 0.2s;
+  position: relative; /* For badge positioning */
+}
+
+.floating-chat-button:hover {
+  background-color: #0d8a6d; /* Green on hover */
+  transform: scale(1.1);
+}
+
+.chat-button-icon {
+  font-size: 24px;
+}
+
+.chat-notification-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #ff4d4f;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Chat Container */
+.chat-container {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  width: 400px;
+  max-width: 90%;
+  height: 600px;
+  max-height: 80vh;
+  background-color: #010409;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  z-index: 1001;
+  overflow: hidden;
+}
+
+.chat-header {
+  padding: 15px 20px;
+  background-color: #062857;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.chat-title i {
+  font-size: 18px;
+}
+
+.chat-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-action-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.chat-action-btn:hover {
+  opacity: 1;
+}
+
+.chat-action-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.chat-messages {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  background-color: #f7f7f8;
+}
+
+.chat-welcome-message {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+
+.welcome-icon {
+  font-size: 40px;
+  color: #010409;
+  margin-bottom: 15px;
+}
+
+.welcome-icon i {
+  font-size: 40px;
+}
+
+.chat-welcome-message h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.chat-welcome-message p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.resource-context {
+  margin-top: 20px;
+  padding: 8px 12px;
+  background-color: #e9e9eb;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.chat-message {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.message-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #e9e9eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.message-avatar i {
+  font-size: 14px;
+  color: #555;
+}
+
+.chat-message.bot .message-avatar {
+  background-color: #010409;
+}
+
+.chat-message.bot .message-avatar i {
+  color: white;
+}
+
+.message-content {
+  flex: 1;
+}
+
+.message-text {
+  background-color: white;
+  padding: 12px 16px;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 1.5;
+  box-shadow: 0 1px 2px #1f6feb;
+}
+
+.chat-message.bot .message-text {
+  background-color: #f0f4f8;
+}
+
+.message-text p {
+  margin: 2px 0;
+}
+
+.message-text p:first-child {
+  margin-top: 0;
+}
+
+.message-text p:last-child {
+  margin-bottom: 0;
+}
+
+.message-timestamp {
+  font-size: 11px;
+  color: #999;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.typing-indicator {
+  display: flex;
+  padding: 10px 0;
+}
+
+.typing-indicator span {
+  width: 8px;
+  height: 8px;
+  background-color: #999;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 2px;
+  animation: typing 1s infinite ease-in-out;
+}
+
+.typing-indicator span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.typing-indicator span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing-indicator span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes typing {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Quiz Section */
+.quiz-section {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.quiz-header h4 {
+  margin: 0;
+  color: #333;
+}
+
+.submit-quiz-btn {
+  background-color: #10a37f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submit-quiz-btn:hover {
+  background-color: #0d8a6d;
+}
+
+.submit-quiz-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.quiz-question {
+  margin-bottom: 20px;
+}
+
+.question-text {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.question-options {
+  margin-left: 10px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.option:hover:not(.selected) {
+  background-color: #f5f5f5;
+}
+
+.option.selected {
+  background-color: #e6f7ff;
+}
+
+.option.correct {
+  background-color: #f6ffed;
+}
+
+.option.incorrect {
+  background-color: #fff2f0;
+}
+
+.option-selector {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selection-circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
+
+.selection-circle.selected {
+  border-color: #10a37f;
+  background-color: #10a37f;
+}
+
+.option-text {
+  flex: 1;
+  font-size: 13px;
+}
+
+.question-explanation {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #666;
+}
+
+/* Chat Input Area */
+.chat-input-area {
+  border-top: 1px solid #eee;
+  padding: 15px;
+  background-color: white;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+}
+
+.chat-input-area input {
+  flex: 1;
+  padding: 12px 50px 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.chat-input-area input:focus {
+  border-color: #2f81f7;
+}
+
+.send-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #2f81f7;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.send-button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.input-footer {
+  margin-top: 8px;
+  text-align: center;
+  color: #999;
+  font-size: 11px;
+}
+/* Stark Tower Container */
+.stark-tower {
+  width: 100%;
+  max-width: 400px;
+  background: var(--thanos-light);
+  border-radius: 12px;
+  border: 1px solid var(--vibranium);
+  box-shadow: var(--shadow-realm);
+  padding: 20px;
+  margin: 20px 0;
+  transition: var(--quicksilver);
+}
+
+/* Tower Section */
+.tower-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Tower Header */
+.tower-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--vibranium);
+}
+
+.tower-title {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.tower-title h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--black-panther);
+  margin: 0;
+}
+
+.tower-code {
+  font-size: 12px;
+  color: var(--black-widow);
+  background: var(--wakanda);
+  padding: 2px 6px;
+  border-radius: 12px;
+}
+
+/* Tower Action Buttons */
+.tower-action {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background-color: var(--ironman);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--quicksilver);
+}
+
+.tower-action:hover {
+  background-color: var(--ironman-dark);
+  transform: translateY(-1px);
+}
+
+.tower-action-sm {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+/* Mission List (Topics) */
+.mission-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tower-subheader {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--black-widow);
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Topic List */
+.mission-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.mission-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 6px;
+  background-color: var(--thanos-lighter);
+  border: 1px solid var(--vibranium);
+  cursor: pointer;
+  transition: var(--quicksilver);
+  gap: 10px;
+}
+
+.mission-list li:hover {
+  background-color: var(--wakanda);
+  border-color: var(--ironman);
+}
+
+.mission-list li.active {
+  background-color: var(--ironman-light);
+  border-color: var(--ironman);
+}
+
+.mission-list li span {
+  flex-grow: 1;
+  font-size: 14px;
+  color: var(--black-panther);
+}
+
+/* Folder Icon */
+.mission-list li svg {
+  color: var(--ironman);
+  font-size: 15px;
+  transition: var(--quicksilver);
+}
+
+.mission-list li.active svg {
+  color: var(--ironman-dark);
+}
+
+/* Empty State */
+.empty-topics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+  text-align: center;
+  color: var(--black-widow);
+  border: 1px dashed var(--vibranium-light);
+  border-radius: 8px;
+  background-color: var(--wakanda);
+}
+
+.empty-topics p {
+  margin: 0;
+  font-size: 13px;
+}
+/* Floating Buttons Container */
+.floating-buttons-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+/* Floating Mind Map Button */
+.floating-mindmap-button {
+  background-color: #1a73e8; /* Blue background for visibility */
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.floating-mindmap-button:hover {
+  background-color: #1557b0; /* Darker blue on hover */
+  transform: scale(1.1);
+}
+
+.floating-mindmap-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Mind Map Button Icon */
+.mindmap-button-icon {
+  font-size: 24px;
+}
+@media (max-width: 768px) {
+  .floating-buttons-container {
+      bottom: 10px;
+      right: 10px;
+      gap: 8px;
+  }
+  .floating-mindmap-button,
+  .floating-chat-button {
+      width: 40px;
+      height: 40px;
+  }
+  .mindmap-button-icon,
+  .chat-button-icon {
+      font-size: 20px;
+  }
+}
+.floating-buttons-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 10px;
+  z-index: 1000; /* Ensure container is above other elements */
+}
+.floating-buttons-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 10px;
+  z-index: 1000; /* Ensure container is above other elements */
+}
+
+/* Floating Mind Map Button */
+.floating-mindmap-button {
+  background-color: #1a73e8; /* Blue background for visibility */
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.floating-mindmap-button:hover {
+  background-color: #1557b0; /* Darker blue on hover */
+  transform: scale(1.1);
+}
+
+.floating-mindmap-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Mind Map Button Icon */
+.mindmap-button-icon {
+  font-size: 24px;
+}
+
+.empty-vault {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.empty-vault i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+}
+
+.empty-vault p {
+  margin-bottom: 1.5rem;
+}
+
+.arc-reactor-btn {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.arc-reactor-btn:hover {
+  background-color: var(--primary-dark-color);
+}
+
+.arc-reactor-btn svg {
+  font-size: 1.1rem;
+}
+/* Existing styles assumed to be present, only adding new styles for the loading animation */
+
+/* Upload Progress Container */
+.upload-progress-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Progress Bar */
+.progress-bar {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Progress Fill */
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #34A853, #4285F4);
+  transition: width 0.3s ease;
+  position: relative;
+}
+
+/* Pusher Character */
+.pusher-character {
+  position: absolute;
+  right: -15px;
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  animation: push 0.5s infinite alternate;
+}
+
+.pusher-icon {
+  fill: #fff;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+/* Drive Icon */
+.drive-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  animation: pulse 1.5s infinite;
+}
+
+/* Progress Text */
+.progress-text {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Animations */
+@keyframes push {
+  0% { transform: translateX(0) rotate(5deg); }
+  100% { transform: translateX(-5px) rotate(-5deg); }
+}
+
+@keyframes pulse {
+  0% { transform: translateY(-50%) scale(1); }
+  50% { transform: translateY(-50%) scale(1.1); }
+  100% { transform: translateY(-50%) scale(1); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .progress-bar {
+    height: 16px;
+  }
+
+  .pusher-character {
+    width: 24px;
+    height: 24px;
+    right: -12px;
+    top: -8px;
+  }
+
+  .drive-icon {
+    width: 20px;
+    height: 20px;
+    right: 8px;
+  }
+
+  .progress-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .progress-bar {
+    height: 14px;
+  }
+
+  .pusher-character {
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    top: -7px;
+  }
+
+  .drive-icon {
+    width: 18px;
+    height: 18px;
+    right: 6px;
+  }
+
+  .progress-text {
+    font-size: 0.8rem;
+  }
+}/* Modal Container */
+.shield-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent backdrop */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+  overflow: auto;
+}
+
+/* Modal Content */
+.modal-tech {
+  background: var(--thanos-light);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 600px;
+  padding: 24px;
+  position: relative;
+  animation: slideIn 0.3s ease-out;
+}
+
+/* Modal Header */
+.modal-command {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.modal-command h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--ironman);
+  margin: 0;
+}
+
+.close-tech {
+  background: none;
+  border: none;
+  color: var(--captain-blue);
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-tech:hover {
+  color: var(--scarlet-witch);
+}
+
+/* Modal Body */
+.modal-core {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Form Group */
+.tech-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tech-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--hulk-green);
+}
+
+.tech-input,
+.tech-select {
+  background: var(--thanos-dark);
+  border: 1px solid var(--captain-blue);
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 1rem;
+  color: var(--ironman);
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.tech-input:focus,
+.tech-select:focus {
+  outline: none;
+  border-color: var(--scarlet-witch);
+  background: var(--thanos-light);
+}
+
+.tech-input:disabled,
+.tech-select:disabled {
+  background: var(--thanos-dark);
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.tech-select {
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%235F9EA0" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+
+/* Two-Column Row */
+.tech-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+/* Quill Editor */
+.quill-editor {
+  background: var(--thanos-dark);
+  border: 1px solid var(--captain-blue);
+  border-radius: 8px;
+  min-height: 150px;
+}
+
+.quill-editor .ql-toolbar {
+  background: var(--thanos-light);
+  border: none;
+  border-bottom: 1px solid var(--captain-blue);
+  border-radius: 8px 8px 0 0;
+  padding: 8px;
+}
+
+.quill-editor .ql-container {
+  background: var(--thanos-dark);
+  border: none;
+  border-radius: 0 0 8px 8px;
+  color: var(--ironman);
+  font-size: 1rem;
+}
+
+.quill-editor .ql-editor {
+  min-height: 120px;
+  padding: 12px;
+}
+
+.quill-editor .ql-editor:focus {
+  border-color: var(--scarlet-witch);
+}
+
+/* File Upload */
+.upload-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--thanos-dark);
+  border: 1px solid var(--captain-blue);
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.upload-label:hover {
+  border-color: var(--scarlet-witch);
+  background: var(--thanos-light);
+}
+
+.upload-label i {
+  color: var(--hulk-green);
+  font-size: 1.25rem;
+}
+
+.upload-label span {
+  color: var(--ironman);
+  font-size: 1rem;
+}
+
+.upload-label input:disabled + i,
+.upload-label input:disabled + span {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Attachment List */
+.attachment-list {
+  margin-top: 8px;
+}
+
+.attachment-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.attachment-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ironman);
+  font-size: 0.875rem;
+  padding: 8px 0;
+}
+
+.attachment-item i {
+  color: var(--captain-blue);
+}
+
+/* Modal Actions */
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.shield-btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.shield-btn-primary {
+  background: var(--hulk-green);
+  color: var(--thanos-dark);
+  border: none;
+}
+
+.shield-btn-primary:hover {
+  background: var(--scarlet-witch);
+  transform: translateY(-2px);
+}
+
+.shield-btn-secondary {
+  background: transparent;
+  border: 1px solid var(--captain-blue);
+  color: var(--ironman);
+}
+
+.shield-btn-secondary:hover {
+  background: var(--thanos-dark);
+  border-color: var(--scarlet-witch);
+  transform: translateY(-2px);
+}
+
+/* Upload Progress (if applicable) */
+.upload-progress-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 8px;
+  background: var(--thanos-dark);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--hulk-green);
+  transition: width 0.5s ease;
+  position: relative;
+}
+
+.pusher-character {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.pusher-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--ironman);
+}
+
+.drive-icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+  width: 24px;
+  height: 24px;
+}
+
+.progress-text {
+  color: var(--ironman);
+  font-size: 0.875rem;
+}
+
+/* Animations */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .modal-tech {
+    max-width: 90%;
+    padding: 16px;
+  }
+
+  .tech-row {
+    grid-template-columns: 1fr;
+  }
+
+  .modal-command h3 {
+    font-size: 1.25rem;
+  }
+
+  .shield-btn {
+    padding: 10px 16px;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-tech {
+    padding: 12px;
+  }
+
+  .tech-input,
+  .tech-select {
+    font-size: 0.875rem;
+    padding: 10px;
+  }
+
+  .tech-label {
+    font-size: 0.75rem;
+  }
+
+  .upload-label {
+    padding: 10px;
+  }
+
+  .modal-actions {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .shield-btn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "geofense-427302",
+  "private_key_id": "4265206f76abd34efae4500ee275449dd12b3251",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCVHQfeUzQAc2oN\n439Bb2cR+GFpK71vKMfS2arafmR46ESnt1N5MXL2ob5R+q9J9YOu9i60LG9NZZdN\nN1yy9XXMsXT3amSFVej/VSctEG5nxMMYkZjlJ8Zkc0oDFHvb1u0Kr42hoy35YERw\nLBFKENRlgAzW3KK9DOB3dJw03IimLDkUKu8KVPCQYTtkHgQuaZcng489GrEw54xu\nLO7dT33jQ/mFUEeFBjham9M5LepdH/tY+Vy6zggJ+40AVLZ3jldNIoy6xcUBQ5m9\n6fr8EeSSA9ivHvZkybSeUYkag9Fud+enLY86oUSP8ppRNh70B84MbN/z+iio+nOy\nw1T651sbAgMBAAECggEACPaJ+sGKTCs2H/pPRfxLE4xhWE2JRdswCW96xP2UYTa6\nGSy8grDH4VxRbEenf9qpgaBSzMnf1gBepmB9wXjwskXudC0XXQVG5y9TzXJLCuww\nX/hVo8pX6gqKnLij/HRuEHsnqqRqBtOdVPLJKvp+JCycxqyvfh/HGOliJFcCsAwF\nF21N6sl+Yw9DZb/5HOSemcqTGqx6UX7rREHPLJJDTBGqZsp6K8Rm+/wtKjkybIyN\nq5FB4HQxlGewYEh6EHI7JkxmE8TFpr35uzsQtUtzC+aqNkbpWUZU9sHXWxqioDt7\nf0c/HwEoT1oHsL3+40DhOy0IbM+4iu6hv2cW3cUYoQKBgQDMaNkuh7RS1z5i58Fh\n3rfz9hYCyq1U/YCZf0Fuz2RlkOs8BovzSzgS9FEZzxpHKMiQMks3a75h5ZQA2gq2\nc1x+rANUtjjzx7t/MsrNswPJVS/EjV3L132yJq1OYuC1nyo1Jju7eRkkTZgBE6yT\nSEm99hEJghCB5E9W+YLKjyImIQKBgQC6v24ESw6RrvvoinoI6vFCJxkJmNZgdYOK\nEXRjA4P41VTXz/gcXBlJAA9H6QZoeD0TdakbvgYBe1eGNbpcMsK5eyFbhEUOOyOF\nr5/LwGw3HxC9WQ24TOrU+f74H/10pNaBDTML33sqCyQKb6zbS0hHM1ICUfL1XNC4\n6dNChiNhuwKBgE5wia8GWldTy9fucVIaQmL28xldJ0ivAvNkVvqr0S38f5iINppF\nKh5z7M9HnyDhcJ2M/zokOWmdzL7K7UN4X20omxqd1psN8VBtcE+hO3m+G9eEHBNF\n/TEpEGY9IVfw3SSKKG/Xl6NLt2HqZ9YY7ltcGsuYQrdlomCQ3PTYGlWhAoGAPw5+\nZoK1g6mTM7z2YeZ62jx7bsslr+JeLROhugEo4a+e+1Qk0eajPwv/HOfpGwNmlBiJ\npm1ud7efIRkpORKGv7x80fsCmkCLyQs5KMJrh908eMMGJ/II5SsY1c1vdqBmMaM0\nVlD6tIKYg9Gbi1yLJkeE7HWhVQonDBkgFXlXnxsCgYEAnd9Okxkqh1nmfMBCaAk1\nPBOpRfGnSvKUTdAo89WOZ+Dou09Ke+x6WC3VcOJdRJ4GFxUJTETLIEqB6ejW7EZG\nVxAfcm9CXub6LwfpRD3TQIPEj+OjUhgdx6Z3O3dqxaJhtxxDRJVvcSYTpqpzktJL\n7g0ZQejp/2PFOVKTXqjb0N0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-tb797@geofense-427302.iam.gserviceaccount.com",
+  "client_id": "103095214027042220174",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-tb797%40geofense-427302.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

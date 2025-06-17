@@ -1,0 +1,57 @@
+2025-06-07 10:47:39,356 - __main__ - INFO - Firebase initialized successfully
+2025-06-07 10:47:39,431 - __main__ - INFO - LLM client initialized with provider: groq
+2025-06-07 10:47:39,434 - __main__ - INFO - Starting exam processor server on port 5009
+2025-06-07 10:49:34,697 - __main__ - INFO - Request 227cf85f-3c9f-44c8-9ba0-3526f9c12e5f: Starting exam upload processing
+2025-06-07 10:49:37,114 - __main__ - INFO - Extracted text from 94c6c682-9300-4bdb-abb8-bc14e4aeff9d.pdf, length: 1254 characters
+2025-06-07 10:49:37,116 - __main__ - INFO - Request 227cf85f-3c9f-44c8-9ba0-3526f9c12e5f: Sending request to LLM
+2025-06-07 10:49:40,145 - __main__ - INFO - Request 227cf85f-3c9f-44c8-9ba0-3526f9c12e5f: Received response from LLM
+2025-06-07 10:49:40,147 - __main__ - INFO - Processed exam with 0 questions
+2025-06-07 10:49:40,148 - __main__ - ERROR - Request 227cf85f-3c9f-44c8-9ba0-3526f9c12e5f: Error 713d0544-5eff-4d81-b666-3de7aab2d689: module 'google.cloud.firestore_v1.field_path' has no attribute 'firestore'
+2025-06-07 10:53:48,196 - __main__ - INFO - Firebase initialized successfully
+2025-06-07 10:53:48,274 - __main__ - INFO - LLM client initialized with provider: groq
+2025-06-07 10:53:48,278 - __main__ - INFO - Starting exam processor server on port 5009
+2025-06-07 10:53:56,045 - __main__ - INFO - Request b695b6a7-e726-4c36-bac7-121e688d829c: Starting exam upload processing
+2025-06-07 10:54:00,246 - __main__ - INFO - Extracted text from 94c6c682-9300-4bdb-abb8-bc14e4aeff9d.pdf, length: 1254 characters
+2025-06-07 10:54:00,247 - __main__ - INFO - Request b695b6a7-e726-4c36-bac7-121e688d829c: Sending request to LLM
+2025-06-07 10:54:02,384 - __main__ - INFO - Request b695b6a7-e726-4c36-bac7-121e688d829c: Received response from LLM
+2025-06-07 10:54:02,385 - __main__ - INFO - Processed exam with 0 questions
+2025-06-07 10:54:02,386 - __main__ - ERROR - Request b695b6a7-e726-4c36-bac7-121e688d829c: Error 8972c95a-3e11-4a4e-b84b-41cdecb86630: module 'firebase_admin.firestore' has no attribute 'Timestamp'
+2025-06-07 11:00:08,930 - __main__ - INFO - Firebase initialized successfully
+2025-06-07 11:00:09,002 - __main__ - INFO - LLM client initialized with provider: groq
+2025-06-07 11:00:09,006 - __main__ - INFO - Starting exam processor server on port 5009
+2025-06-07 11:00:17,356 - __main__ - INFO - Request a8e1c179-0479-4848-a0a7-d6f5d1469377: Starting exam upload processing
+2025-06-07 11:00:19,461 - __main__ - INFO - Extracted text from 94c6c682-9300-4bdb-abb8-bc14e4aeff9d.pdf, length: 1254 characters
+2025-06-07 11:00:19,464 - __main__ - INFO - Request a8e1c179-0479-4848-a0a7-d6f5d1469377: Sending request to LLM
+2025-06-07 11:00:21,678 - __main__ - INFO - Request a8e1c179-0479-4848-a0a7-d6f5d1469377: Received response from LLM
+2025-06-07 11:00:21,679 - __main__ - INFO - Processed exam with 0 questions
+2025-06-07 11:00:22,090 - __main__ - INFO - Exam saved with ID: Z9bndemf8cI0ijZTVe8F
+2025-06-07 11:00:22,091 - __main__ - INFO - Request a8e1c179-0479-4848-a0a7-d6f5d1469377: Completed in 4.73s with exam ID Z9bndemf8cI0ijZTVe8F
+2025-06-07 11:00:22,095 - __main__ - ERROR - Request a8e1c179-0479-4848-a0a7-d6f5d1469377: Error 841f068d-2ecc-41c1-bc3b-17fb83e9dcf3: Object of type Sentinel is not JSON serializable
+2025-06-07 11:02:34,814 - __main__ - INFO - Firebase initialized successfully
+2025-06-07 11:02:34,904 - __main__ - INFO - LLM client initialized with provider: groq
+2025-06-07 11:02:34,915 - __main__ - INFO - Starting exam processor server on port 5009
+2025-06-07 11:03:09,162 - __main__ - INFO - Request 11a29714-5621-4e2e-9e14-17e53a3a6f46: Starting exam upload processing
+2025-06-07 11:03:11,299 - __main__ - INFO - Extracted text from 94c6c682-9300-4bdb-abb8-bc14e4aeff9d.pdf, length: 1254 characters
+2025-06-07 11:03:11,301 - __main__ - INFO - Request 11a29714-5621-4e2e-9e14-17e53a3a6f46: Sending request to LLM
+2025-06-07 11:03:13,417 - __main__ - INFO - Request 11a29714-5621-4e2e-9e14-17e53a3a6f46: Received response from LLM
+2025-06-07 11:03:13,419 - __main__ - INFO - Processed exam with 0 questions
+2025-06-07 11:03:13,811 - __main__ - INFO - Exam saved with ID: XfTzpjARLR7wTEF3EwKV
+2025-06-07 11:03:13,812 - __main__ - INFO - Request 11a29714-5621-4e2e-9e14-17e53a3a6f46: Completed in 4.65s with exam ID XfTzpjARLR7wTEF3EwKV
+2025-06-07 11:11:57,965 - __main__ - INFO - Firebase initialized successfully
+2025-06-07 11:11:58,053 - __main__ - INFO - LLM client initialized with provider: groq
+2025-06-07 11:11:58,065 - __main__ - INFO - Starting exam processor server on port 5009
+2025-06-07 11:12:43,569 - __main__ - INFO - Request 245cb7b8-76c0-47a5-8f50-236f4fe9b436: Starting exam upload processing
+2025-06-07 11:12:45,410 - __main__ - INFO - Extracted text from 94c6c682-9300-4bdb-abb8-bc14e4aeff9d.pdf, length: 1274 characters
+2025-06-07 11:12:45,412 - __main__ - INFO - Request 245cb7b8-76c0-47a5-8f50-236f4fe9b436: Sending request to LLM
+2025-06-07 11:12:47,604 - __main__ - INFO - Request 245cb7b8-76c0-47a5-8f50-236f4fe9b436: Received response from LLM
+2025-06-07 11:12:48,285 - __main__ - INFO - Exam saved with ID: Dw6CdAAHrWtp3lkgSroJ
+2025-06-07 11:12:48,286 - __main__ - INFO - Request 245cb7b8-76c0-47a5-8f50-236f4fe9b436: Completed in 4.72s with exam ID Dw6CdAAHrWtp3lkgSroJ
+2025-06-10 08:24:59,607 - __main__ - INFO - Firebase initialized successfully
+2025-06-10 08:24:59,727 - __main__ - INFO - LLM client initialized with provider: groq
+2025-06-10 08:24:59,737 - __main__ - INFO - Starting exam processor server on port 5009
+2025-06-10 08:29:39,349 - __main__ - INFO - Request cb166173-7f0a-4355-82c6-e826d3796f2e: Starting exam upload processing
+2025-06-10 08:29:41,868 - __main__ - INFO - Extracted text from 94c6c682-9300-4bdb-abb8-bc14e4aeff9d.pdf, length: 1274 characters
+2025-06-10 08:29:41,869 - __main__ - INFO - Request cb166173-7f0a-4355-82c6-e826d3796f2e: Sending request to LLM
+2025-06-10 08:29:45,357 - __main__ - INFO - Request cb166173-7f0a-4355-82c6-e826d3796f2e: Received response from LLM
+2025-06-10 08:29:45,904 - __main__ - INFO - Exam saved with ID: p5KroQvCg276Z7zdgAhQ
+2025-06-10 08:29:45,905 - __main__ - INFO - Request cb166173-7f0a-4355-82c6-e826d3796f2e: Completed in 6.56s with exam ID p5KroQvCg276Z7zdgAhQ

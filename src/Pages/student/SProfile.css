@@ -1,0 +1,272 @@
+
+/* Override default backgrounds for LinkedIn look */
+.bg-gray-100 {
+  background-color: #f3f2ef !important;
+}
+
+.bg-white {
+  background-color: #ffffff !important;
+}
+
+/* LinkedIn-style card shadows */
+.shadow-sm {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* LinkedIn border colors */
+.border-gray-300 {
+  border-color: #d9d9d9 !important;
+}
+
+.border-gray-200 {
+  border-color: #e6e6e6 !important;
+}
+
+.border-gray-100 {
+  border-color: #f0f0f0 !important;
+}
+
+/* LinkedIn text colors */
+.text-gray-900 {
+  color: #000000 !important;
+}
+
+.text-gray-800 {
+  color: #1a1a1a !important;
+}
+
+.text-gray-700 {
+  color: #404040 !important;
+}
+
+.text-gray-600 {
+  color: #666666 !important;
+}
+
+.text-gray-500 {
+  color: #999999 !important;
+}
+
+.text-gray-400 {
+  color: #b3b3b3 !important;
+}
+
+/* LinkedIn blue colors */
+.text-blue-600 {
+  color: #0a66c2 !important;
+}
+
+.text-blue-800 {
+  color: #004182 !important;
+}
+
+.bg-blue-600 {
+  background-color: #0a66c2 !important;
+}
+
+.bg-blue-700 {
+  background-color: #004182 !important;
+}
+
+.bg-blue-100 {
+  background-color: #e7f3ff !important;
+}
+
+.bg-blue-50 {
+  background-color: #f3f8ff !important;
+}
+
+.border-blue-600 {
+  border-color: #0a66c2 !important;
+}
+
+/* LinkedIn hover effects */
+.hover\:bg-gray-50:hover {
+  background-color: #f8f9fa !important;
+}
+
+.hover\:text-blue-600:hover {
+  color: #0a66c2 !important;
+}
+
+.hover\:text-blue-700:hover {
+  color: #004182 !important;
+}
+
+.hover\:bg-blue-700:hover {
+  background-color: #004182 !important;
+}
+
+.hover\:bg-blue-50:hover {
+  background-color: #f3f8ff !important;
+}
+
+/* LinkedIn-style rounded corners */
+.rounded-lg {
+  border-radius: 8px !important;
+}
+
+.rounded-full {
+  border-radius: 50% !important;
+}
+
+/* LinkedIn-style focus states */
+.focus\:ring-blue-500:focus {
+  box-shadow: 0 0 0 2px #0a66c2 !important;
+}
+
+.focus\:outline-none:focus {
+  outline: none !important;
+}
+
+/* LinkedIn-style input styling */
+input[type="text"] {
+  transition: all 0.15s ease-in-out;
+}
+
+input[type="text"]:focus {
+  border-color: #0a66c2;
+  box-shadow: 0 0 0 1px #0a66c2;
+}
+
+/* LinkedIn-style button styling */
+button {
+  transition: all 0.15s ease-in-out;
+  font-weight: 500;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+/* LinkedIn-style progress bars */
+.bg-green-500 {
+  background-color: #057642 !important;
+}
+
+.bg-blue-500 {
+  background-color: #0a66c2 !important;
+}
+
+.bg-purple-500 {
+  background-color: #7c3aed !important;
+}
+
+.text-green-600 {
+  color: #057642 !important;
+}
+
+.text-purple-600 {
+  color: #7c3aed !important;
+}
+
+/* LinkedIn-style profile card */
+.profile-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* LinkedIn-style activity feed */
+.activity-item {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 16px 0;
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+}
+
+/* LinkedIn-style post creator */
+.post-creator {
+  background: white;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+/* LinkedIn-style connection cards */
+.connection-card {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-radius: 8px;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.connection-card:hover {
+  background-color: #f8f9fa;
+}
+
+/* LinkedIn-style achievement badges */
+.achievement-badge {
+  background: #fff7e6;
+  border: 1px solid #ffd700;
+  border-radius: 6px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+/* LinkedIn-style stats */
+.stat-item {
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.stat-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* LinkedIn-style navigation */
+.nav-item {
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.15s ease-in-out;
+  color: #666666;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item:hover {
+  background-color: #f8f9fa;
+  color: #0a66c2;
+}
+
+/* LinkedIn-style responsive adjustments */
+@media (max-width: 1024px) {
+  .content {
+    margin-left: 0;
+  }
+  
+  .container {
+    flex-direction: column;
+  }
+}
+
+/* LinkedIn-style smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* LinkedIn-style selection colors */
+::selection {
+  background-color: #0a66c2;
+  color: white;
+}
+
+/* LinkedIn-style focus indicators */
+*:focus {
+  outline: 2px solid #0a66c2;
+  outline-offset: 2px;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #0a66c2;
+}

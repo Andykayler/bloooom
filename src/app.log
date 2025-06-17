@@ -1,0 +1,495 @@
+2025-05-13 02:24:31,606 - __main__ - INFO - Firebase initialized successfully
+2025-05-13 02:24:31,727 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-13 02:24:31,729 - __main__ - INFO - Starting application server
+2025-05-13 02:24:40,920 - __main__ - INFO - Request 10a91f81-9738-46dc-b6b7-70431aae7142: Starting mindmap generation
+2025-05-13 02:24:44,154 - __main__ - ERROR - Request 10a91f81-9738-46dc-b6b7-70431aae7142: Error 8fb7abf8-a845-4916-a218-e11f68412fc1: name 'source' is not defined
+2025-05-13 02:24:44,160 - __main__ - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Miles kayler\Documents\ProjectBloom\src\concept.py", line 460, in generate_mindmap
+    prompt = MindMapGenerator.generate_prompt(resource_data, analysis)
+  File "C:\Users\Miles kayler\Documents\ProjectBloom\src\concept.py", line 335, in generate_prompt
+    4. Edge IDs should follow format "e{source}-{target}"
+NameError: name 'source' is not defined
+
+2025-05-13 02:27:36,162 - __main__ - INFO - Request bf36097f-f10a-4f93-a30e-ce25d68b62a2: Starting mindmap generation
+2025-05-13 02:27:38,368 - __main__ - ERROR - Request bf36097f-f10a-4f93-a30e-ce25d68b62a2: Error 8e237059-1cf0-411f-a7f3-1fae4e2a6a87: name 'source' is not defined
+2025-05-13 02:27:38,372 - __main__ - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Miles kayler\Documents\ProjectBloom\src\concept.py", line 460, in generate_mindmap
+    prompt = MindMapGenerator.generate_prompt(resource_data, analysis)
+  File "C:\Users\Miles kayler\Documents\ProjectBloom\src\concept.py", line 335, in generate_prompt
+    4. Edge IDs should follow format "e{source}-{target}"
+NameError: name 'source' is not defined
+
+2025-05-13 02:29:32,337 - __main__ - INFO - Request 06b0b299-3948-46d5-8bfc-20797da8d1d4: Starting mindmap generation
+2025-05-13 02:29:34,536 - __main__ - ERROR - Request 06b0b299-3948-46d5-8bfc-20797da8d1d4: Error 8f28a195-9ea3-4927-b31e-a6335f797840: name 'source' is not defined
+2025-05-13 02:29:34,556 - __main__ - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Miles kayler\Documents\ProjectBloom\src\concept.py", line 460, in generate_mindmap
+    # Get resource data
+  File "C:\Users\Miles kayler\Documents\ProjectBloom\src\concept.py", line 335, in generate_prompt
+    4. Edge IDs should follow format "eSourceId-TargetId" where SourceId and TargetId are the actual node IDs
+NameError: name 'source' is not defined
+
+2025-05-13 02:30:24,773 - __main__ - INFO - Request dbdcb0f5-c279-4129-9e4a-248fc5a5bc47: Starting mindmap generation
+2025-05-13 02:30:25,406 - __main__ - ERROR - Request dbdcb0f5-c279-4129-9e4a-248fc5a5bc47: Error 1106b0d4-1377-4a29-8357-b7b1a9a77fd7: name 'source' is not defined
+2025-05-13 02:30:25,421 - __main__ - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Miles kayler\Documents\ProjectBloom\src\concept.py", line 460, in generate_mindmap
+  File "C:\Users\Miles kayler\Documents\ProjectBloom\src\concept.py", line 335, in generate_prompt
+NameError: name 'source' is not defined
+
+2025-05-13 02:31:23,388 - __main__ - INFO - Firebase initialized successfully
+2025-05-13 02:31:23,502 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-13 02:31:23,504 - __main__ - INFO - Starting application server
+2025-05-13 02:32:28,126 - __main__ - INFO - Request 2bf87421-2e49-44c9-8b80-d63a7277c698: Starting mindmap generation
+2025-05-13 02:32:31,139 - __main__ - INFO - Request 2bf87421-2e49-44c9-8b80-d63a7277c698: Sending request to LLM
+2025-05-13 02:32:35,225 - __main__ - INFO - Request 2bf87421-2e49-44c9-8b80-d63a7277c698: Received response from LLM
+2025-05-13 02:32:35,648 - __main__ - INFO - Mindmap saved successfully: f16caad0-14b1-472e-8b25-ae83cbf61b98
+2025-05-13 02:32:35,664 - __main__ - INFO - Request 2bf87421-2e49-44c9-8b80-d63a7277c698: Completed in 7.54s
+2025-05-13 02:48:27,783 - __main__ - INFO - Request 21e2a365-c943-47f7-8559-ad4a51999564: Starting mindmap generation
+2025-05-13 02:48:30,016 - __main__ - INFO - Request 21e2a365-c943-47f7-8559-ad4a51999564: Sending request to LLM
+2025-05-13 02:48:31,886 - __main__ - INFO - Request 21e2a365-c943-47f7-8559-ad4a51999564: Received response from LLM
+2025-05-13 02:48:32,367 - __main__ - INFO - Mindmap saved successfully: cc5c22a1-7de4-4755-9944-bd913643dbf3
+2025-05-13 02:48:32,368 - __main__ - INFO - Request 21e2a365-c943-47f7-8559-ad4a51999564: Completed in 4.59s
+2025-05-13 02:49:17,237 - __main__ - INFO - Request d23e44ac-f85e-4c57-98c7-30f52d2a282d: Starting mindmap generation
+2025-05-13 02:49:17,864 - __main__ - INFO - Request d23e44ac-f85e-4c57-98c7-30f52d2a282d: Sending request to LLM
+2025-05-13 02:49:19,584 - __main__ - INFO - Request d23e44ac-f85e-4c57-98c7-30f52d2a282d: Received response from LLM
+2025-05-13 02:49:19,993 - __main__ - INFO - Mindmap saved successfully: 13a0633d-1e58-4378-99fd-01c0f96a37f6
+2025-05-13 02:49:19,994 - __main__ - INFO - Request d23e44ac-f85e-4c57-98c7-30f52d2a282d: Completed in 2.76s
+2025-05-13 02:52:31,245 - __main__ - INFO - Request cd3c8773-6117-4a33-b424-2888384db948: Starting mindmap generation
+2025-05-13 02:52:33,467 - __main__ - INFO - Request cd3c8773-6117-4a33-b424-2888384db948: Sending request to LLM
+2025-05-13 02:52:34,924 - __main__ - INFO - Request cd3c8773-6117-4a33-b424-2888384db948: Received response from LLM
+2025-05-13 02:52:35,323 - __main__ - INFO - Mindmap saved successfully: a086d6a5-abcd-49ae-a7ce-974abca77df4
+2025-05-13 02:52:35,324 - __main__ - INFO - Request cd3c8773-6117-4a33-b424-2888384db948: Completed in 4.08s
+2025-05-13 02:54:12,276 - __main__ - INFO - Request 4185182c-b2f9-4fdf-8b97-6f0ad27f9bbf: Starting mindmap generation
+2025-05-13 02:54:14,414 - __main__ - INFO - Request 4185182c-b2f9-4fdf-8b97-6f0ad27f9bbf: Sending request to LLM
+2025-05-13 02:54:16,424 - __main__ - INFO - Request 4185182c-b2f9-4fdf-8b97-6f0ad27f9bbf: Received response from LLM
+2025-05-13 02:54:16,848 - __main__ - INFO - Mindmap saved successfully: 261808de-2c40-4a34-80d8-9cbc7922abdd
+2025-05-13 02:54:16,850 - __main__ - INFO - Request 4185182c-b2f9-4fdf-8b97-6f0ad27f9bbf: Completed in 4.57s
+2025-05-13 02:54:18,800 - __main__ - INFO - Request ed1f04ba-902e-4c92-ab4a-fc89e3061005: Starting mindmap generation
+2025-05-13 02:54:19,411 - __main__ - INFO - Request ed1f04ba-902e-4c92-ab4a-fc89e3061005: Sending request to LLM
+2025-05-13 02:54:21,012 - __main__ - INFO - Request ed1f04ba-902e-4c92-ab4a-fc89e3061005: Received response from LLM
+2025-05-13 02:54:21,423 - __main__ - INFO - Mindmap saved successfully: 33740a72-1013-48e0-8d73-e13ed1eec49e
+2025-05-13 02:54:21,424 - __main__ - INFO - Request ed1f04ba-902e-4c92-ab4a-fc89e3061005: Completed in 2.62s
+2025-05-13 02:54:29,940 - __main__ - INFO - Request 99d326da-385e-4ccf-b834-f1ebfdf5c13c: Starting mindmap generation
+2025-05-13 02:54:30,552 - __main__ - INFO - Request 99d326da-385e-4ccf-b834-f1ebfdf5c13c: Sending request to LLM
+2025-05-13 02:54:32,453 - __main__ - INFO - Request 99d326da-385e-4ccf-b834-f1ebfdf5c13c: Received response from LLM
+2025-05-13 02:54:32,860 - __main__ - INFO - Mindmap saved successfully: daaebed5-8776-4709-8631-87884d78e338
+2025-05-13 02:54:32,861 - __main__ - INFO - Request 99d326da-385e-4ccf-b834-f1ebfdf5c13c: Completed in 2.92s
+2025-05-13 02:54:41,659 - __main__ - INFO - Request dff7bdcf-3b7c-43cc-8472-49d2b748166f: Starting mindmap generation
+2025-05-13 02:54:42,237 - __main__ - INFO - Request dff7bdcf-3b7c-43cc-8472-49d2b748166f: Sending request to LLM
+2025-05-13 02:54:52,994 - __main__ - INFO - Request 396e14ff-f5db-485a-96fd-405282953969: Starting mindmap generation
+2025-05-13 02:54:53,622 - __main__ - INFO - Request 396e14ff-f5db-485a-96fd-405282953969: Sending request to LLM
+2025-05-13 02:54:57,243 - __main__ - INFO - Request dff7bdcf-3b7c-43cc-8472-49d2b748166f: Received response from LLM
+2025-05-13 02:54:57,638 - __main__ - INFO - Mindmap saved successfully: 1c85f8e5-a26d-4166-9eb6-374ceeebf458
+2025-05-13 02:54:57,639 - __main__ - INFO - Request dff7bdcf-3b7c-43cc-8472-49d2b748166f: Completed in 15.98s
+2025-05-13 02:54:57,868 - __main__ - INFO - Request 396e14ff-f5db-485a-96fd-405282953969: Received response from LLM
+2025-05-13 02:54:58,810 - __main__ - INFO - Mindmap saved successfully: 59d79b21-fc19-49dd-99bf-3fe9e2042e65
+2025-05-13 02:54:58,811 - __main__ - INFO - Request 396e14ff-f5db-485a-96fd-405282953969: Completed in 5.82s
+2025-05-13 02:55:20,199 - __main__ - INFO - Request 6b25dd24-8402-455e-b1f2-f057ae3bc3f3: Starting mindmap generation
+2025-05-13 02:55:20,791 - __main__ - INFO - Request 6b25dd24-8402-455e-b1f2-f057ae3bc3f3: Sending request to LLM
+2025-05-13 02:55:47,021 - __main__ - INFO - Request 6b25dd24-8402-455e-b1f2-f057ae3bc3f3: Received response from LLM
+2025-05-13 02:55:47,422 - __main__ - INFO - Mindmap saved successfully: 0f6e4d49-59c4-476a-819d-b9c12f86a458
+2025-05-13 02:55:47,423 - __main__ - INFO - Request 6b25dd24-8402-455e-b1f2-f057ae3bc3f3: Completed in 27.22s
+2025-05-13 03:22:22,913 - __main__ - INFO - Request 1eb9eee7-ee92-4db0-babb-c3b2457a8654: Starting mindmap generation
+2025-05-13 03:22:25,233 - __main__ - INFO - Request 1eb9eee7-ee92-4db0-babb-c3b2457a8654: Sending request to LLM
+2025-05-13 03:22:28,232 - __main__ - INFO - Request 1eb9eee7-ee92-4db0-babb-c3b2457a8654: Received response from LLM
+2025-05-13 03:22:28,662 - __main__ - INFO - Mindmap saved successfully: cdcd5bcc-60ba-4608-a989-c28ee2853df9
+2025-05-13 03:22:28,663 - __main__ - INFO - Request 1eb9eee7-ee92-4db0-babb-c3b2457a8654: Completed in 5.75s
+2025-05-13 03:22:44,923 - __main__ - INFO - Request 8b0e3683-3cc9-4371-800a-322d67f24986: Starting mindmap generation
+2025-05-13 03:22:45,549 - __main__ - INFO - Request 8b0e3683-3cc9-4371-800a-322d67f24986: Sending request to LLM
+2025-05-13 03:22:48,234 - __main__ - INFO - Request 8b0e3683-3cc9-4371-800a-322d67f24986: Received response from LLM
+2025-05-13 03:22:48,620 - __main__ - INFO - Mindmap saved successfully: 0f4e485c-007a-4fd2-afd2-e0829cc2c861
+2025-05-13 03:22:48,621 - __main__ - INFO - Request 8b0e3683-3cc9-4371-800a-322d67f24986: Completed in 3.70s
+2025-05-13 03:36:27,722 - __main__ - INFO - Request edbe13da-a485-4e9d-93f1-f49cfb78c86e: Starting mindmap generation
+2025-05-13 03:36:30,923 - __main__ - INFO - Request edbe13da-a485-4e9d-93f1-f49cfb78c86e: Sending request to LLM
+2025-05-13 03:36:33,877 - __main__ - INFO - Request edbe13da-a485-4e9d-93f1-f49cfb78c86e: Received response from LLM
+2025-05-13 03:36:34,286 - __main__ - INFO - Mindmap saved successfully: ad50814d-438c-47a7-9cd2-0ae6f7b3af99
+2025-05-13 03:36:34,287 - __main__ - INFO - Request edbe13da-a485-4e9d-93f1-f49cfb78c86e: Completed in 6.56s
+2025-05-13 03:37:04,084 - __main__ - INFO - Request 8f3635e5-f06c-45b1-ada5-6db6feacd073: Starting mindmap generation
+2025-05-13 03:37:04,705 - __main__ - INFO - Request 8f3635e5-f06c-45b1-ada5-6db6feacd073: Sending request to LLM
+2025-05-13 03:37:06,400 - __main__ - INFO - Request 8f3635e5-f06c-45b1-ada5-6db6feacd073: Received response from LLM
+2025-05-13 03:37:06,813 - __main__ - INFO - Mindmap saved successfully: e8b4fde4-b853-40a2-a3f5-8593bd5b6615
+2025-05-13 03:37:06,813 - __main__ - INFO - Request 8f3635e5-f06c-45b1-ada5-6db6feacd073: Completed in 2.73s
+2025-05-13 04:29:29,627 - __main__ - INFO - Request a2baea39-e74b-4736-ae09-d7df561caf81: Starting mindmap generation
+2025-05-13 04:29:31,928 - __main__ - INFO - Request a2baea39-e74b-4736-ae09-d7df561caf81: Sending request to LLM
+2025-05-13 04:29:34,883 - __main__ - INFO - Request a2baea39-e74b-4736-ae09-d7df561caf81: Received response from LLM
+2025-05-13 04:29:35,324 - __main__ - INFO - Mindmap saved successfully: e8b4a07b-d15a-4162-8e2a-107d161de067
+2025-05-13 04:29:35,325 - __main__ - INFO - Request a2baea39-e74b-4736-ae09-d7df561caf81: Completed in 5.70s
+2025-05-13 04:29:55,444 - __main__ - INFO - Request ec68abdc-2204-473c-8784-c618081db98d: Starting mindmap generation
+2025-05-13 04:29:56,067 - __main__ - INFO - Request ec68abdc-2204-473c-8784-c618081db98d: Sending request to LLM
+2025-05-13 04:29:58,587 - __main__ - INFO - Request ec68abdc-2204-473c-8784-c618081db98d: Received response from LLM
+2025-05-13 04:29:59,245 - __main__ - INFO - Mindmap saved successfully: e6d49502-a5fc-4be0-8d7d-a4df65a6f910
+2025-05-13 04:29:59,246 - __main__ - INFO - Request ec68abdc-2204-473c-8784-c618081db98d: Completed in 3.80s
+2025-05-13 04:34:12,941 - __main__ - INFO - Request 6d35ee07-cd3c-4020-b71c-fb31c96f8d27: Starting mindmap generation
+2025-05-13 04:34:16,086 - __main__ - INFO - Request 6d35ee07-cd3c-4020-b71c-fb31c96f8d27: Sending request to LLM
+2025-05-13 04:34:17,846 - __main__ - INFO - Request 6d35ee07-cd3c-4020-b71c-fb31c96f8d27: Received response from LLM
+2025-05-13 04:34:18,292 - __main__ - INFO - Mindmap saved successfully: 6a2644ab-575f-482c-9c17-79ed0dd06fcc
+2025-05-13 04:34:18,294 - __main__ - INFO - Request 6d35ee07-cd3c-4020-b71c-fb31c96f8d27: Completed in 5.35s
+2025-05-13 04:38:09,885 - __main__ - INFO - Request 7fd81a86-4c2c-4747-8aa9-45133e63f0f4: Starting mindmap generation
+2025-05-13 04:38:12,116 - __main__ - INFO - Request 7fd81a86-4c2c-4747-8aa9-45133e63f0f4: Sending request to LLM
+2025-05-13 04:38:13,786 - __main__ - INFO - Request 7fd81a86-4c2c-4747-8aa9-45133e63f0f4: Received response from LLM
+2025-05-13 04:38:14,206 - __main__ - INFO - Mindmap saved successfully: c65bfcd1-cc6f-45fd-bd6a-06aaa1bff23b
+2025-05-13 04:38:14,208 - __main__ - INFO - Request 7fd81a86-4c2c-4747-8aa9-45133e63f0f4: Completed in 4.32s
+2025-05-13 04:44:52,670 - __main__ - INFO - Request ba335b00-f162-40ba-bd9c-3c41b4c9ab50: Starting mindmap generation
+2025-05-13 04:44:54,862 - __main__ - INFO - Request ba335b00-f162-40ba-bd9c-3c41b4c9ab50: Sending request to LLM
+2025-05-13 04:44:56,701 - __main__ - INFO - Request ba335b00-f162-40ba-bd9c-3c41b4c9ab50: Received response from LLM
+2025-05-13 04:44:57,143 - __main__ - INFO - Mindmap saved successfully: e0755837-7340-488f-805d-52b211ccf37d
+2025-05-13 04:44:57,144 - __main__ - INFO - Request ba335b00-f162-40ba-bd9c-3c41b4c9ab50: Completed in 4.47s
+2025-05-13 04:49:15,437 - __main__ - INFO - Request d2b45f63-d8a1-4dbf-b70f-c32e6e06474a: Starting mindmap generation
+2025-05-13 04:49:17,562 - __main__ - INFO - Request d2b45f63-d8a1-4dbf-b70f-c32e6e06474a: Sending request to LLM
+2025-05-13 04:49:19,289 - __main__ - INFO - Request d2b45f63-d8a1-4dbf-b70f-c32e6e06474a: Received response from LLM
+2025-05-13 04:49:19,701 - __main__ - INFO - Mindmap saved successfully: 4e407e1c-e088-4e1f-abb0-9acfe854f6fc
+2025-05-13 04:49:19,702 - __main__ - INFO - Request d2b45f63-d8a1-4dbf-b70f-c32e6e06474a: Completed in 4.27s
+2025-05-13 04:55:12,501 - __main__ - INFO - Request c90eff8b-d8cf-4a1a-8f38-0d23805a8d1c: Starting mindmap generation
+2025-05-13 04:55:14,696 - __main__ - INFO - Request c90eff8b-d8cf-4a1a-8f38-0d23805a8d1c: Sending request to LLM
+2025-05-13 04:55:16,546 - __main__ - INFO - Request c90eff8b-d8cf-4a1a-8f38-0d23805a8d1c: Received response from LLM
+2025-05-13 04:55:16,980 - __main__ - INFO - Mindmap saved successfully: b0220cef-68d8-4d87-b667-f3478f490f0d
+2025-05-13 04:55:16,981 - __main__ - INFO - Request c90eff8b-d8cf-4a1a-8f38-0d23805a8d1c: Completed in 4.48s
+2025-05-13 04:59:45,730 - __main__ - INFO - Request 4f2aaa6a-4218-4089-868c-6c235bfdac0e: Starting mindmap generation
+2025-05-13 04:59:47,884 - __main__ - INFO - Request 4f2aaa6a-4218-4089-868c-6c235bfdac0e: Sending request to LLM
+2025-05-13 04:59:50,590 - __main__ - INFO - Request 4f2aaa6a-4218-4089-868c-6c235bfdac0e: Received response from LLM
+2025-05-13 04:59:51,008 - __main__ - INFO - Mindmap saved successfully: eecbbea1-346b-434a-8ce2-82e66d2830a9
+2025-05-13 04:59:51,009 - __main__ - INFO - Request 4f2aaa6a-4218-4089-868c-6c235bfdac0e: Completed in 5.28s
+2025-05-13 05:00:32,804 - __main__ - INFO - Request 35c215f9-ae13-402b-b356-926a51a0dc47: Starting mindmap generation
+2025-05-13 05:00:33,405 - __main__ - INFO - Request 35c215f9-ae13-402b-b356-926a51a0dc47: Sending request to LLM
+2025-05-13 05:00:35,107 - __main__ - INFO - Request 35c215f9-ae13-402b-b356-926a51a0dc47: Received response from LLM
+2025-05-13 05:00:35,678 - __main__ - INFO - Mindmap saved successfully: 087b24d1-1e30-4fbb-95c4-08451a0ef4fd
+2025-05-13 05:00:35,679 - __main__ - INFO - Request 35c215f9-ae13-402b-b356-926a51a0dc47: Completed in 2.88s
+2025-05-13 05:09:41,527 - __main__ - INFO - Request 7fffa2b7-4abb-4be6-bdfa-ffe7997c8959: Starting mindmap generation
+2025-05-13 05:09:43,700 - __main__ - INFO - Request 7fffa2b7-4abb-4be6-bdfa-ffe7997c8959: Sending request to LLM
+2025-05-13 05:09:45,540 - __main__ - INFO - Request 7fffa2b7-4abb-4be6-bdfa-ffe7997c8959: Received response from LLM
+2025-05-13 05:09:45,965 - __main__ - INFO - Mindmap saved successfully: 764cebee-4f9f-4d84-ade3-a648da5c400b
+2025-05-13 05:09:45,966 - __main__ - INFO - Request 7fffa2b7-4abb-4be6-bdfa-ffe7997c8959: Completed in 4.44s
+2025-05-13 05:10:00,956 - __main__ - INFO - Request 59d2904c-bb6f-4aa1-8576-49131eb53ad5: Starting mindmap generation
+2025-05-13 05:10:01,569 - __main__ - INFO - Request 59d2904c-bb6f-4aa1-8576-49131eb53ad5: Sending request to LLM
+2025-05-13 05:10:03,256 - __main__ - INFO - Request 59d2904c-bb6f-4aa1-8576-49131eb53ad5: Received response from LLM
+2025-05-13 05:10:03,689 - __main__ - INFO - Mindmap saved successfully: 1ef22ccb-7e03-40f7-ac50-ad654528d975
+2025-05-13 05:10:03,689 - __main__ - INFO - Request 59d2904c-bb6f-4aa1-8576-49131eb53ad5: Completed in 2.73s
+2025-05-13 05:10:35,243 - __main__ - INFO - Request e0fd7b88-a672-4cef-b607-d316efc0f2c9: Starting mindmap generation
+2025-05-13 05:10:35,828 - __main__ - INFO - Request e0fd7b88-a672-4cef-b607-d316efc0f2c9: Sending request to LLM
+2025-05-13 05:10:37,474 - __main__ - INFO - Request e0fd7b88-a672-4cef-b607-d316efc0f2c9: Received response from LLM
+2025-05-13 05:10:37,931 - __main__ - INFO - Mindmap saved successfully: 60dae9ab-2822-482f-bf86-72d65a455178
+2025-05-13 05:10:37,932 - __main__ - INFO - Request e0fd7b88-a672-4cef-b607-d316efc0f2c9: Completed in 2.69s
+2025-05-13 05:12:16,997 - __main__ - INFO - Request f303750f-0efa-43e9-ab43-b720ed00c128: Starting mindmap generation
+2025-05-13 05:12:19,139 - __main__ - INFO - Request f303750f-0efa-43e9-ab43-b720ed00c128: Sending request to LLM
+2025-05-13 05:12:20,910 - __main__ - INFO - Request f303750f-0efa-43e9-ab43-b720ed00c128: Received response from LLM
+2025-05-13 05:12:21,346 - __main__ - INFO - Mindmap saved successfully: eeddff91-e6b6-48c7-bcc2-eebb367df4b3
+2025-05-13 05:12:21,347 - __main__ - INFO - Request f303750f-0efa-43e9-ab43-b720ed00c128: Completed in 4.35s
+2025-05-13 05:18:21,256 - __main__ - INFO - Request 5f5fffe9-d8c2-46a8-a707-a734864f4d0a: Starting mindmap generation
+2025-05-13 05:18:23,480 - __main__ - INFO - Request 5f5fffe9-d8c2-46a8-a707-a734864f4d0a: Sending request to LLM
+2025-05-13 05:18:25,254 - __main__ - INFO - Request 5f5fffe9-d8c2-46a8-a707-a734864f4d0a: Received response from LLM
+2025-05-13 05:18:25,660 - __main__ - INFO - Mindmap saved successfully: d46f9827-9404-4b2a-917d-af14d33d8545
+2025-05-13 05:18:25,666 - __main__ - INFO - Request 5f5fffe9-d8c2-46a8-a707-a734864f4d0a: Completed in 4.41s
+2025-05-13 09:03:11,740 - __main__ - INFO - Firebase initialized successfully
+2025-05-13 09:03:11,819 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-13 09:03:11,822 - __main__ - INFO - Starting application server
+2025-05-13 23:16:33,776 - __main__ - INFO - Firebase initialized successfully
+2025-05-13 23:16:34,130 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-13 23:16:34,136 - __main__ - INFO - Starting application server
+2025-05-19 07:49:09,872 - __main__ - INFO - Firebase initialized successfully
+2025-05-19 07:49:10,044 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-19 07:49:10,046 - __main__ - INFO - Starting application server
+2025-05-19 08:36:34,730 - __main__ - INFO - Firebase initialized successfully
+2025-05-19 08:36:34,832 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-19 08:36:34,835 - __main__ - INFO - Starting application server
+2025-05-19 08:36:41,263 - __main__ - INFO - Request c494ed76-b583-4124-a5f2-f2ee0e5158bd: Starting mindmap generation
+2025-05-19 08:36:44,880 - __main__ - ERROR - Request c494ed76-b583-4124-a5f2-f2ee0e5158bd: Error 84bbe828-49f6-4696-a704-1be3f7c86b79: 'str' object has no attribute 'get'
+2025-05-19 08:36:44,885 - __main__ - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Miles kayler\Documents\ProjectBloom\src\concept.py", line 471, in generate_mindmap
+    prompt = MindMapGenerator.generate_prompt(resource_data, analysis)
+  File "C:\Users\Miles kayler\Documents\ProjectBloom\src\concept.py", line 279, in generate_prompt
+    explanation = analysis.get('explanation', '')
+AttributeError: 'str' object has no attribute 'get'
+
+2025-05-19 08:43:46,403 - __main__ - INFO - Firebase initialized successfully
+2025-05-19 08:43:46,525 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-19 08:43:46,531 - __main__ - INFO - Starting application server
+2025-05-19 08:44:05,432 - __main__ - INFO - Request 8daedb4a-be78-45fb-b3ef-01bac27af40d: Starting mindmap generation
+2025-05-19 08:44:09,618 - __main__ - INFO - Request 8daedb4a-be78-45fb-b3ef-01bac27af40d: Sending request to LLM
+2025-05-19 08:44:12,400 - __main__ - INFO - Request 8daedb4a-be78-45fb-b3ef-01bac27af40d: Received response from LLM
+2025-05-19 08:44:13,015 - __main__ - INFO - Mindmap saved successfully: 3a7b0cc1-cd2f-410c-b179-9a0cc53252db
+2025-05-19 08:44:13,016 - __main__ - INFO - Request 8daedb4a-be78-45fb-b3ef-01bac27af40d: Completed in 7.58s
+2025-05-19 09:29:28,324 - __main__ - INFO - Request 647283f6-6e9b-4f24-a0d9-4b01d1fc2ae5: Starting mindmap generation
+2025-05-19 09:29:31,353 - __main__ - INFO - Request 647283f6-6e9b-4f24-a0d9-4b01d1fc2ae5: Sending request to LLM
+2025-05-19 09:29:34,223 - __main__ - INFO - Request 647283f6-6e9b-4f24-a0d9-4b01d1fc2ae5: Received response from LLM
+2025-05-19 09:29:34,718 - __main__ - INFO - Mindmap saved successfully: 88457d64-d5c6-4287-b244-b9067e2ef8a9
+2025-05-19 09:29:34,719 - __main__ - INFO - Request 647283f6-6e9b-4f24-a0d9-4b01d1fc2ae5: Completed in 6.40s
+2025-05-19 09:52:49,868 - __main__ - INFO - Request 039506b6-ce9d-4e81-a54c-297c64845694: Starting mindmap generation
+2025-05-19 09:52:54,443 - __main__ - INFO - Request 039506b6-ce9d-4e81-a54c-297c64845694: Sending request to LLM
+2025-05-19 09:52:56,683 - __main__ - INFO - Request 039506b6-ce9d-4e81-a54c-297c64845694: Received response from LLM
+2025-05-19 09:52:57,400 - __main__ - INFO - Mindmap saved successfully: 0a1bb37d-8934-4f25-a4c2-da8db8871a36
+2025-05-19 09:52:57,401 - __main__ - INFO - Request 039506b6-ce9d-4e81-a54c-297c64845694: Completed in 7.54s
+2025-05-20 07:23:35,227 - __main__ - INFO - Firebase initialized successfully
+2025-05-20 07:23:35,326 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-20 07:23:35,330 - __main__ - INFO - Starting application server
+2025-05-20 07:53:11,570 - __main__ - INFO - Request 2113ed9f-656e-494c-b479-810b8bbdee78: Starting mindmap generation
+2025-05-20 07:53:12,990 - __main__ - INFO - Request 2113ed9f-656e-494c-b479-810b8bbdee78: Sending request to LLM
+2025-05-20 07:53:16,275 - __main__ - INFO - Request 2113ed9f-656e-494c-b479-810b8bbdee78: Received response from LLM
+2025-05-20 07:53:16,658 - __main__ - INFO - Mindmap saved successfully: 6afa7bac-550b-4ae4-a81e-ff46d0395424
+2025-05-20 07:53:16,660 - __main__ - INFO - Request 2113ed9f-656e-494c-b479-810b8bbdee78: Completed in 5.09s
+2025-05-20 12:02:45,194 - __main__ - INFO - Request d6c947a3-9626-4585-8ac8-50c0592349da: Starting mindmap generation
+2025-05-20 12:02:48,136 - __main__ - INFO - Request d6c947a3-9626-4585-8ac8-50c0592349da: Sending request to LLM
+2025-05-20 12:02:49,856 - __main__ - INFO - Request d6c947a3-9626-4585-8ac8-50c0592349da: Received response from LLM
+2025-05-20 12:02:50,303 - __main__ - INFO - Mindmap saved successfully: ecdd05b8-fc4a-428c-aed3-c2496ac52074
+2025-05-20 12:02:50,304 - __main__ - INFO - Request d6c947a3-9626-4585-8ac8-50c0592349da: Completed in 5.11s
+2025-05-20 14:31:47,576 - __main__ - INFO - Request a9717358-1ba1-49f2-bc34-070c44a7f381: Starting mindmap generation
+2025-05-20 14:31:49,492 - __main__ - INFO - Request a9717358-1ba1-49f2-bc34-070c44a7f381: Sending request to LLM
+2025-05-20 14:31:51,351 - __main__ - INFO - Request a9717358-1ba1-49f2-bc34-070c44a7f381: Received response from LLM
+2025-05-20 14:31:51,858 - __main__ - INFO - Mindmap saved successfully: 6f95d9a0-20ae-4011-ba9e-4d1c3fd792d2
+2025-05-20 14:31:51,859 - __main__ - INFO - Request a9717358-1ba1-49f2-bc34-070c44a7f381: Completed in 4.28s
+2025-05-27 08:01:21,093 - __main__ - INFO - Firebase initialized successfully
+2025-05-27 08:01:21,289 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-27 08:01:21,292 - __main__ - INFO - Starting application server
+2025-05-27 11:03:02,985 - __main__ - INFO - Firebase initialized successfully
+2025-05-27 11:03:03,151 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-27 11:03:03,160 - __main__ - INFO - Starting application server
+2025-05-27 16:22:55,659 - __main__ - INFO - Firebase initialized successfully
+2025-05-27 16:22:55,844 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-27 16:22:55,848 - __main__ - INFO - Starting application server
+2025-05-27 16:25:57,861 - __main__ - INFO - Request 75b385c9-6fbe-4e3c-b47a-2977791711ce: Starting mindmap generation
+2025-05-27 16:26:00,695 - __main__ - INFO - Request 75b385c9-6fbe-4e3c-b47a-2977791711ce: Sending request to LLM
+2025-05-27 16:26:03,182 - __main__ - INFO - Request 75b385c9-6fbe-4e3c-b47a-2977791711ce: Received response from LLM
+2025-05-27 16:26:03,675 - __main__ - INFO - Mindmap saved successfully: d404ec48-2553-4a7c-ac03-604daa195b48
+2025-05-27 16:26:03,679 - __main__ - INFO - Request 75b385c9-6fbe-4e3c-b47a-2977791711ce: Completed in 5.82s
+2025-05-28 08:06:50,884 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 08:06:51,112 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 08:06:51,148 - __main__ - INFO - Starting application server
+2025-05-28 09:01:02,301 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 09:01:02,432 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 09:01:02,446 - __main__ - INFO - Starting application server
+2025-05-28 09:12:57,259 - __main__ - INFO - Request 506802a0-4ef6-4e79-ac81-32f443bd75cc: Starting mindmap generation
+2025-05-28 09:13:00,596 - __main__ - INFO - Request 506802a0-4ef6-4e79-ac81-32f443bd75cc: Sending request to LLM
+2025-05-28 09:13:03,663 - __main__ - INFO - Request 506802a0-4ef6-4e79-ac81-32f443bd75cc: Received response from LLM
+2025-05-28 09:13:04,129 - __main__ - INFO - Mindmap saved successfully: b422fef3-8ab0-479f-8d6a-767f038e4432
+2025-05-28 09:13:04,136 - __main__ - INFO - Request 506802a0-4ef6-4e79-ac81-32f443bd75cc: Completed in 6.88s
+2025-05-28 11:32:48,999 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 11:32:49,096 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 11:32:49,097 - __main__ - INFO - Starting application server
+2025-05-28 12:43:05,061 - __main__ - INFO - Request 9db7d490-bd42-4e81-a13b-8d423acf3014: Starting mindmap generation
+2025-05-28 12:43:06,695 - __main__ - INFO - Request 9db7d490-bd42-4e81-a13b-8d423acf3014: Sending request to LLM
+2025-05-28 12:43:08,521 - __main__ - INFO - Request 9db7d490-bd42-4e81-a13b-8d423acf3014: Received response from LLM
+2025-05-28 12:43:08,931 - __main__ - INFO - Mindmap saved successfully: cf9e6d83-199a-4834-aded-2119ca0e0d88
+2025-05-28 12:43:08,931 - __main__ - INFO - Request 9db7d490-bd42-4e81-a13b-8d423acf3014: Completed in 3.87s
+2025-05-28 14:41:51,966 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 14:41:52,257 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 14:41:52,259 - __main__ - INFO - Starting application server
+2025-05-28 14:56:49,225 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 14:56:49,306 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 14:56:49,309 - __main__ - INFO - Starting application server
+2025-05-28 15:22:22,958 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 15:22:23,024 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 15:22:23,026 - __main__ - INFO - Starting application server
+2025-05-28 15:31:19,268 - __main__ - INFO - Request a9808d13-492e-45d0-a45a-3adf206d42d4: Starting mindmap generation
+2025-05-28 15:31:21,091 - __main__ - INFO - Request a9808d13-492e-45d0-a45a-3adf206d42d4: Sending request to LLM
+2025-05-28 15:31:23,165 - __main__ - INFO - Request a9808d13-492e-45d0-a45a-3adf206d42d4: Received response from LLM
+2025-05-28 15:31:23,576 - __main__ - INFO - Mindmap saved successfully: d3a7cf87-78d6-43ba-a3b3-e94d237ba7bd
+2025-05-28 15:31:23,577 - __main__ - INFO - Request a9808d13-492e-45d0-a45a-3adf206d42d4: Completed in 4.31s
+2025-06-03 22:57:13,850 - __main__ - INFO - Firebase initialized successfully
+2025-06-03 22:57:13,928 - __main__ - INFO - LLM client initialized with provider: groq
+2025-06-03 22:57:13,935 - __main__ - INFO - Starting application server
+2025-06-03 22:58:10,157 - __main__ - INFO - Request ccdfae34-05d6-4ece-9330-536c94ab46c6: Starting mindmap generation
+2025-06-03 22:58:11,859 - __main__ - INFO - Request ccdfae34-05d6-4ece-9330-536c94ab46c6: Sending request to LLM
+2025-06-03 22:58:15,729 - __main__ - INFO - Request ccdfae34-05d6-4ece-9330-536c94ab46c6: Received response from LLM
+2025-06-03 22:58:16,188 - __main__ - INFO - Mindmap saved successfully: 6abefb35-a123-43d5-a56f-80de01578164
+2025-06-03 22:58:16,189 - __main__ - INFO - Request ccdfae34-05d6-4ece-9330-536c94ab46c6: Completed in 6.03s
+2025-06-07 10:12:45,623 - __main__ - INFO - Firebase initialized successfully
+2025-06-07 10:12:45,707 - __main__ - INFO - LLM client initialized with provider: groq
+2025-06-07 10:12:45,710 - __main__ - INFO - Starting application server
+2025-06-10 08:25:23,290 - __main__ - INFO - Firebase initialized successfully
+2025-06-10 08:25:23,387 - __main__ - INFO - LLM client initialized with provider: groq
+2025-06-10 08:25:23,390 - __main__ - INFO - Starting application server
+2025-06-16 09:37:11,004 - __main__ - INFO - Firebase initialized successfully
+2025-06-16 09:37:11,091 - __main__ - INFO - LLM client initialized with provider: groq
+2025-06-16 09:37:11,100 - __main__ - INFO - Starting application server
+2025-06-16 10:24:20,341 - __main__ - INFO - Request d3b4ecab-d564-40c8-803e-98cd18316a3b: Starting mindmap generation
+2025-06-16 10:24:22,786 - __main__ - INFO - Request d3b4ecab-d564-40c8-803e-98cd18316a3b: Sending request to LLM
+2025-06-16 10:24:25,051 - __main__ - INFO - Request d3b4ecab-d564-40c8-803e-98cd18316a3b: Received response from LLM
+2025-06-16 10:24:25,975 - __main__ - INFO - Mindmap saved successfully: c39fea84-3188-41d2-b774-63922822f804
+2025-06-16 10:24:25,980 - __main__ - INFO - Request d3b4ecab-d564-40c8-803e-98cd18316a3b: Completed in 5.64s
+2025-06-16 10:38:57,207 - __main__ - WARNING - SERPAPI_KEY not found in environment variables
+2025-06-16 10:38:57,218 - __main__ - INFO - Starting Flask application
+2025-06-16 10:41:10,278 - __main__ - INFO - Request f214c1fa-60e4-4b85-a147-137f373411d7: Starting audio overview generation
+2025-06-16 10:41:13,358 - __main__ - WARNING - Request f214c1fa-60e4-4b85-a147-137f373411d7: Validation error: Invalid format specifier
+2025-06-16 10:45:44,178 - __main__ - WARNING - SERPAPI_KEY not found in environment variables
+2025-06-16 10:45:44,180 - __main__ - INFO - Starting Flask application
+2025-06-16 10:47:17,096 - __main__ - WARNING - SERPAPI_KEY not found in environment variables
+2025-06-16 10:47:17,098 - __main__ - INFO - Starting Flask application
+2025-06-16 10:47:39,099 - __main__ - INFO - Request c177b039-42b8-4c71-a75f-6ce568e04697: Starting audio overview generation
+2025-06-16 10:47:41,400 - __main__ - WARNING - Invalid JSON in analysis for resource wtRWvEXBeNyGo7EWqvyr
+2025-06-16 10:47:41,401 - __main__ - WARNING - Request c177b039-42b8-4c71-a75f-6ce568e04697: Validation error: Invalid format specifier
+2025-06-16 10:51:35,620 - __main__ - WARNING - SERPAPI_KEY not found in environment variables
+2025-06-16 10:51:35,624 - __main__ - INFO - Starting Flask application
+2025-06-16 10:51:41,632 - __main__ - INFO - Request 85ce7b4f-71eb-4644-9332-24c9460811a2: Starting audio overview generation
+2025-06-16 10:51:44,027 - __main__ - WARNING - Invalid JSON in analysis for resource wtRWvEXBeNyGo7EWqvyr
+2025-06-16 10:51:44,029 - __main__ - INFO - Request 85ce7b4f-71eb-4644-9332-24c9460811a2: Sending request to LLM
+2025-06-16 10:51:45,957 - __main__ - INFO - Request 85ce7b4f-71eb-4644-9332-24c9460811a2: Received response from LLM
+2025-06-16 10:51:45,958 - __main__ - ERROR - JSON parsing error in process_raw_audio_overview: Invalid control character at: line 2 column 351 (char 352)
+2025-06-16 10:51:45,959 - __main__ - ERROR - Raw JSON: Here is the generated script:
+
+{
+  "script": "Hey there! Let's dive into differential equations! [EMPHASIS]yt1z.net[PAUSE]. This video explains how differential equations can be used to describe real-life physical situations. [SLOW]In this example, a constant force is applied to an object, and we can use a differential equation to find the object's position and velocity over time.
+
+The speaker explains that a differential equation is a mathematical representation of a real-life physical situation, making it easier to understand and visualize complex concepts. [PAUSE]They also emphasize the importance of differential equations in solving for position and velocity, stating, 'What differential equations are. Why we use them and why we need them.'
+
+Throughout the video, the speaker uses clear and concise language, supported by visual examples, to illustrate the concepts of velocity, acceleration, and force. [SLOW]This approach makes it easier for the audience to follow along and understand the material.
+
+Ready to learn more? Check out the resource!",
+  "metadata": {
+    "title": "yt1z.net - Differential Equation - Introduction (5 of 15) Real Example of a Differential Equation - 1 (480p).mp4",
+    "duration_estimate": 150,
+    "word_count": 200
+  }
+}
+2025-06-16 10:51:45,960 - __main__ - WARNING - Request 85ce7b4f-71eb-4644-9332-24c9460811a2: Validation error: Invalid JSON format: Invalid control character at: line 2 column 351 (char 352)
+2025-06-16 10:54:05,546 - __main__ - WARNING - SERPAPI_KEY not found in environment variables
+2025-06-16 10:54:05,549 - __main__ - INFO - Starting Flask application
+2025-06-16 10:54:26,135 - __main__ - INFO - Request 5e9693db-ceca-40a0-8030-10a954c4a4bd: Starting audio overview generation
+2025-06-16 10:54:28,642 - __main__ - WARNING - Invalid JSON in analysis for resource wtRWvEXBeNyGo7EWqvyr
+2025-06-16 10:54:28,646 - __main__ - INFO - Request 5e9693db-ceca-40a0-8030-10a954c4a4bd: Sending request to LLM
+2025-06-16 10:54:30,324 - __main__ - INFO - Request 5e9693db-ceca-40a0-8030-10a954c4a4bd: Received response from LLM
+2025-06-16 10:54:30,718 - __main__ - INFO - Audio overview saved successfully: 07c4b15d-5996-4e56-bc3e-fba0ec77fbf8
+2025-06-16 10:54:30,719 - __main__ - INFO - Request 5e9693db-ceca-40a0-8030-10a954c4a4bd: Completed in 4.58s
+2025-06-16 11:02:45,075 - __main__ - WARNING - SERPAPI_KEY not found in environment variables
+2025-06-16 11:02:45,078 - __main__ - ERROR - Failed to initialize Google Drive: Invalid client secrets file ('Error opening file', 'client_secrets.json', 'No such file or directory', 2)
+2025-06-16 11:02:45,082 - __main__ - INFO - Starting Flask application
+2025-06-16 11:02:54,854 - __main__ - INFO - Request 21aff5cc-0e9c-444c-9f4c-b23f3e97fba6: Starting audio overview generation
+2025-06-16 11:02:58,161 - __main__ - WARNING - Invalid JSON in analysis for resource wtRWvEXBeNyGo7EWqvyr
+2025-06-16 11:02:58,164 - __main__ - INFO - Request 21aff5cc-0e9c-444c-9f4c-b23f3e97fba6: Sending request to LLM
+2025-06-16 11:02:59,955 - __main__ - INFO - Request 21aff5cc-0e9c-444c-9f4c-b23f3e97fba6: Received response from LLM
+2025-06-16 11:03:01,956 - __main__ - ERROR - Error uploading to Google Drive: Google Drive not initialized
+2025-06-16 11:03:01,959 - __main__ - WARNING - Request 21aff5cc-0e9c-444c-9f4c-b23f3e97fba6: Validation error: Google Drive not initialized
+2025-06-16 11:03:19,480 - __main__ - INFO - Request 7f7d7745-b0b3-4cc7-9ed3-907d2a6f6b65: Starting audio overview generation
+2025-06-16 11:03:19,961 - __main__ - WARNING - Invalid JSON in analysis for resource wtRWvEXBeNyGo7EWqvyr
+2025-06-16 11:03:19,963 - __main__ - INFO - Request 7f7d7745-b0b3-4cc7-9ed3-907d2a6f6b65: Sending request to LLM
+2025-06-16 11:03:21,451 - __main__ - INFO - Request 7f7d7745-b0b3-4cc7-9ed3-907d2a6f6b65: Received response from LLM
+2025-06-16 11:03:21,932 - __main__ - ERROR - Error uploading to Google Drive: Google Drive not initialized
+2025-06-16 11:03:21,935 - __main__ - WARNING - Request 7f7d7745-b0b3-4cc7-9ed3-907d2a6f6b65: Validation error: Google Drive not initialized
+2025-06-16 11:07:11,686 - __main__ - WARNING - SERPAPI_KEY not found in environment variables
+2025-06-16 11:07:11,689 - __main__ - ERROR - Failed to initialize Google Drive: Invalid client secrets file ('Error opening file', 'client_secrets.json', 'No such file or directory', 2)
+2025-06-16 11:07:11,690 - __main__ - INFO - Created local audio directory: ./audio_files
+2025-06-16 11:07:11,695 - __main__ - INFO - Starting Flask application
+2025-06-16 11:07:19,755 - __main__ - INFO - Request f5171e49-0356-411f-921e-cc58e6c2d51f: Starting audio overview generation
+2025-06-16 11:07:23,141 - __main__ - WARNING - Invalid JSON in analysis for resource wtRWvEXBeNyGo7EWqvyr
+2025-06-16 11:07:23,144 - __main__ - INFO - Request f5171e49-0356-411f-921e-cc58e6c2d51f: Sending request to LLM
+2025-06-16 11:07:25,451 - __main__ - INFO - Request f5171e49-0356-411f-921e-cc58e6c2d51f: Received response from LLM
+2025-06-16 11:07:26,751 - __main__ - INFO - Audio file saved locally: ./audio_files\audio_f143a02f-51af-412a-90fd-0748d6de255b.mp3
+2025-06-16 11:07:26,758 - __main__ - ERROR - Error uploading to Google Drive: Google Drive not initialized
+2025-06-16 11:07:26,760 - __main__ - WARNING - Request f5171e49-0356-411f-921e-cc58e6c2d51f: Validation error: Google Drive not initialized
+2025-06-16 11:12:40,375 - __main__ - INFO - Request e8107a67-076f-49e6-b734-c2954dd7c9a9: Starting audio overview generation
+2025-06-16 11:12:41,306 - __main__ - WARNING - Invalid JSON in analysis for resource wtRWvEXBeNyGo7EWqvyr
+2025-06-16 11:12:41,308 - __main__ - INFO - Request e8107a67-076f-49e6-b734-c2954dd7c9a9: Sending request to LLM
+2025-06-16 11:12:42,626 - __main__ - INFO - Request e8107a67-076f-49e6-b734-c2954dd7c9a9: Received response from LLM
+2025-06-16 11:12:43,586 - __main__ - INFO - Audio file saved locally: ./audio_files\audio_860c5934-bf41-4fd7-a535-632bf36c151a.mp3
+2025-06-16 11:12:43,592 - __main__ - ERROR - Error uploading to Google Drive: Google Drive not initialized
+2025-06-16 11:12:43,597 - __main__ - WARNING - Request e8107a67-076f-49e6-b734-c2954dd7c9a9: Validation error: Google Drive not initialized
+2025-06-16 11:13:19,965 - __main__ - WARNING - SERPAPI_KEY not found in environment variables
+2025-06-16 11:13:19,967 - __main__ - INFO - Starting Flask application
+2025-06-16 11:13:26,706 - __main__ - INFO - Request a5f0db34-4b8e-4a18-b93a-72955b498861: Starting audio overview generation
+2025-06-16 11:13:29,706 - __main__ - WARNING - Invalid JSON in analysis for resource wtRWvEXBeNyGo7EWqvyr
+2025-06-16 11:13:29,707 - __main__ - INFO - Request a5f0db34-4b8e-4a18-b93a-72955b498861: Sending request to LLM
+2025-06-16 11:13:31,721 - __main__ - INFO - Request a5f0db34-4b8e-4a18-b93a-72955b498861: Received response from LLM
+2025-06-16 11:13:32,624 - __main__ - INFO - Audio file created with pyttsx3: ./audio_files\audio_2da7c114-bfe4-4585-9425-2f1bba4e64b1.mp3
+2025-06-16 11:13:33,082 - __main__ - INFO - Audio overview saved successfully: 2da7c114-bfe4-4585-9425-2f1bba4e64b1
+2025-06-16 11:13:33,083 - __main__ - INFO - Request a5f0db34-4b8e-4a18-b93a-72955b498861: Completed in 6.38s
+2025-06-16 11:15:43,171 - __main__ - INFO - Request fa0a130f-0f97-4d30-9997-120250fc489c: Starting audio overview generation
+2025-06-16 11:15:45,522 - __main__ - WARNING - Invalid JSON in analysis for resource wtRWvEXBeNyGo7EWqvyr
+2025-06-16 11:15:45,527 - __main__ - INFO - Request fa0a130f-0f97-4d30-9997-120250fc489c: Sending request to LLM
+2025-06-16 11:15:47,240 - __main__ - INFO - Request fa0a130f-0f97-4d30-9997-120250fc489c: Received response from LLM
+2025-06-16 11:15:48,084 - __main__ - INFO - Audio file created with pyttsx3: ./audio_files\audio_f9aa2c43-844a-45cf-94e6-292039944a9b.mp3
+2025-06-16 11:15:48,537 - __main__ - INFO - Audio overview saved successfully: f9aa2c43-844a-45cf-94e6-292039944a9b
+2025-06-16 11:15:48,538 - __main__ - INFO - Request fa0a130f-0f97-4d30-9997-120250fc489c: Completed in 5.37s
+2025-06-16 11:31:26,932 - __main__ - WARNING - SERPAPI_KEY not found in environment variables
+2025-06-16 11:31:26,932 - __main__ - ERROR - ELEVENLABS_API_KEY not found in environment variables
+2025-06-16 11:31:26,940 - __main__ - INFO - Starting Flask application
+2025-06-16 11:31:45,550 - __main__ - INFO - Request 678ff81b-9569-4789-a9fc-2d344133e6b1: Starting audio overview generation
+2025-06-16 11:31:48,434 - __main__ - WARNING - Invalid JSON in: wtRWvEXBeNyGo7EWqvyr
+2025-06-16 11:31:48,437 - __main__ - INFO - Request 678ff81b-9569-4789-a9fc-2d344133e6b1: Sending request to LLM
+2025-06-16 11:31:50,380 - __main__ - INFO - Request 678ff81b-9569-4789-a9fc-2d344133e6b1: Received response from LLM
+2025-06-16 11:31:50,381 - __main__ - ERROR - Request 678ff81b-9569-4789-a9fc-2d344133e6b1: Error bf69aedd-ba92-4f8b-b62d-46e49ff803f5: type object 'AudioOverviewGenerator' has no attribute 'process_raw_audio'
+2025-06-16 11:31:50,391 - __main__ - ERROR - Request validation error: name 'traceback' is not defined
+2025-06-16 11:36:49,231 - __main__ - WARNING - SERPAPI_KEY not found in environment variables
+2025-06-16 11:36:49,232 - __main__ - ERROR - ELEVENLABS_API_KEY not found in environment variables
+2025-06-16 11:36:49,240 - __main__ - INFO - Starting Flask application
+2025-06-16 11:36:55,633 - __main__ - INFO - Request 4d3404e4-5a50-4ce0-a811-943a8ffe1e60: Starting audio overview generation
+2025-06-16 11:36:57,874 - __main__ - WARNING - Invalid JSON in: wtRWvEXBeNyGo7EWqvyr
+2025-06-16 11:36:57,877 - __main__ - INFO - Request 4d3404e4-5a50-4ce0-a811-943a8ffe1e60: Sending request to LLM
+2025-06-16 11:37:00,158 - __main__ - INFO - Request 4d3404e4-5a50-4ce0-a811-943a8ffe1e60: Received response from LLM
+2025-06-16 11:37:00,160 - __main__ - ERROR - Error generating audio file: ElevenLabs client not initialized. Missing ELEVENLABS_API_KEY.
+2025-06-16 11:37:00,161 - __main__ - ERROR - Request 4d3404e4-5a50-4ce0-a811-943a8ffe1e60: Validation error: ElevenLabs client not initialized. Missing ELEVENLABS_API_KEY.
+2025-06-16 11:47:44,331 - __main__ - WARNING - SERPAPI_KEY not found in environment variables
+2025-06-16 11:48:07,548 - __main__ - INFO - Starting Flask application
+2025-06-16 11:48:13,766 - __main__ - INFO - Request f0b7232c-269e-4222-94bd-bc2bbfe10988: Starting audio overview generation
+2025-06-16 11:48:16,354 - __main__ - WARNING - Invalid JSON in: wtRWvEXBeNyGo7EWqvyr
+2025-06-16 11:48:16,367 - __main__ - INFO - Request f0b7232c-269e-4222-94bd-bc2bbfe10988: Sending request to LLM
+2025-06-16 11:48:37,620 - __main__ - INFO - Request f0b7232c-269e-4222-94bd-bc2bbfe10988: Received response from LLM
+2025-06-16 11:48:38,175 - __main__ - ERROR - Error generating audio file: headers: {'date': 'Mon, 16 Jun 2025 09:44:13 GMT', 'server': 'uvicorn', 'content-length': '427', 'content-type': 'application/json', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'POST, PATCH, OPTIONS, DELETE, GET, PUT', 'access-control-max-age': '600', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'x-trace-id': 'f4dc19ca667536953c6aeba8ad12f478', 'x-region': 'us-central1', 'via': '1.1 google, 1.1 google', 'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'}, status_code: 403, body: {'detail': {'status': 'invalid_output_format', 'message': "Invalid output format mp3_22050_128. Must be one of the following: typing.Literal['mp3_22050_32', 'mp3_44100_32', 'mp3_44100_64', 'mp3_44100_96', 'mp3_44100_128', 'mp3_44100_192', 'pcm_8000', 'pcm_16000', 'pcm_22050', 'pcm_24000', 'pcm_44100', 'pcm_48000', 'ulaw_8000', 'alaw_8000', 'opus_48000_32', 'opus_48000_64', 'opus_48000_96', 'opus_48000_128', 'opus_48000_192']"}}
+2025-06-16 11:48:38,177 - __main__ - ERROR - Request f0b7232c-269e-4222-94bd-bc2bbfe10988: Error d2dfcd23-864d-4f22-8830-f40be35a05b0: headers: {'date': 'Mon, 16 Jun 2025 09:44:13 GMT', 'server': 'uvicorn', 'content-length': '427', 'content-type': 'application/json', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'POST, PATCH, OPTIONS, DELETE, GET, PUT', 'access-control-max-age': '600', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'x-trace-id': 'f4dc19ca667536953c6aeba8ad12f478', 'x-region': 'us-central1', 'via': '1.1 google, 1.1 google', 'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'}, status_code: 403, body: {'detail': {'status': 'invalid_output_format', 'message': "Invalid output format mp3_22050_128. Must be one of the following: typing.Literal['mp3_22050_32', 'mp3_44100_32', 'mp3_44100_64', 'mp3_44100_96', 'mp3_44100_128', 'mp3_44100_192', 'pcm_8000', 'pcm_16000', 'pcm_22050', 'pcm_24000', 'pcm_44100', 'pcm_48000', 'ulaw_8000', 'alaw_8000', 'opus_48000_32', 'opus_48000_64', 'opus_48000_96', 'opus_48000_128', 'opus_48000_192']"}}
+2025-06-16 11:48:38,202 - __main__ - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Miles kayler\Documents\ProjectBloom\src\audio.py", line 401, in generate_audio
+    local_file_path = AudioOverviewGenerator.generate_audio_file(audio_data['script'], audio_id)
+  File "C:\Users\Miles kayler\Documents\ProjectBloom\src\audio.py", line 332, in generate_audio_file
+    for chunk in audio:
+  File "C:\Users\Miles kayler\AppData\Local\Programs\Python\Python310\lib\site-packages\elevenlabs\text_to_speech\client.py", line 163, in convert
+    with self._raw_client.convert(
+  File "C:\Users\Miles kayler\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "C:\Users\Miles kayler\AppData\Local\Programs\Python\Python310\lib\site-packages\elevenlabs\text_to_speech\raw_client.py", line 211, in convert
+    yield _stream()
+  File "C:\Users\Miles kayler\AppData\Local\Programs\Python\Python310\lib\site-packages\elevenlabs\text_to_speech\raw_client.py", line 209, in _stream
+    raise ApiError(status_code=_response.status_code, headers=dict(_response.headers), body=_response_json)
+elevenlabs.core.api_error.ApiError: headers: {'date': 'Mon, 16 Jun 2025 09:44:13 GMT', 'server': 'uvicorn', 'content-length': '427', 'content-type': 'application/json', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'POST, PATCH, OPTIONS, DELETE, GET, PUT', 'access-control-max-age': '600', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'x-trace-id': 'f4dc19ca667536953c6aeba8ad12f478', 'x-region': 'us-central1', 'via': '1.1 google, 1.1 google', 'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'}, status_code: 403, body: {'detail': {'status': 'invalid_output_format', 'message': "Invalid output format mp3_22050_128. Must be one of the following: typing.Literal['mp3_22050_32', 'mp3_44100_32', 'mp3_44100_64', 'mp3_44100_96', 'mp3_44100_128', 'mp3_44100_192', 'pcm_8000', 'pcm_16000', 'pcm_22050', 'pcm_24000', 'pcm_44100', 'pcm_48000', 'ulaw_8000', 'alaw_8000', 'opus_48000_32', 'opus_48000_64', 'opus_48000_96', 'opus_48000_128', 'opus_48000_192']"}}
+
+2025-06-16 11:51:27,782 - __main__ - WARNING - SERPAPI_KEY not found in environment variables
+2025-06-16 11:51:27,797 - __main__ - INFO - Starting Flask application
+2025-06-16 11:51:41,425 - __main__ - INFO - Request 585862e7-bfc3-4926-aa0f-77c831feef3a: Starting audio overview generation
+2025-06-16 11:51:43,995 - __main__ - WARNING - Invalid JSON in: wtRWvEXBeNyGo7EWqvyr
+2025-06-16 11:51:44,021 - __main__ - INFO - Request 585862e7-bfc3-4926-aa0f-77c831feef3a: Sending request to LLM
+2025-06-16 11:51:46,462 - __main__ - INFO - Request 585862e7-bfc3-4926-aa0f-77c831feef3a: Received response from LLM
+2025-06-16 11:51:46,463 - __main__ - ERROR - Request 585862e7-bfc3-4926-aa0f-77c831feef3a: Error e7c69604-8be0-414d-ac04-c576757f7a38: type object 'AudioOverviewGenerator' has no attribute 'generate_audio_file'
+2025-06-16 11:51:46,469 - __main__ - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Miles kayler\Documents\ProjectBloom\src\audio.py", line 403, in generate_audio
+    local_file_path = AudioOverviewGenerator.generate_audio_file(audio_data['script'], audio_id)
+AttributeError: type object 'AudioOverviewGenerator' has no attribute 'generate_audio_file'
+
+2025-06-16 11:53:21,701 - __main__ - INFO - Request 8b644fd6-0f80-48a2-bde0-51a494160efa: Starting mindmap generation
+2025-06-16 11:53:24,923 - __main__ - INFO - Request 8b644fd6-0f80-48a2-bde0-51a494160efa: Sending request to LLM
+2025-06-16 11:53:26,728 - __main__ - INFO - Request 8b644fd6-0f80-48a2-bde0-51a494160efa: Received response from LLM
+2025-06-16 11:53:27,197 - __main__ - INFO - Mindmap saved successfully: 9a4b74a6-dc7f-4356-a2e4-d5ece56e8167
+2025-06-16 11:53:27,198 - __main__ - INFO - Request 8b644fd6-0f80-48a2-bde0-51a494160efa: Completed in 5.50s
+2025-06-16 11:55:49,697 - __main__ - WARNING - SERPAPI_KEY not found in environment variables
+2025-06-16 11:55:49,718 - __main__ - INFO - Starting Flask application
+2025-06-16 11:56:13,866 - __main__ - INFO - Request 00ef6f3f-c03c-4e12-a731-30df5dca87e9: Starting audio overview generation
+2025-06-16 11:56:16,187 - __main__ - WARNING - Invalid JSON in: wtRWvEXBeNyGo7EWqvyr
+2025-06-16 11:56:16,190 - __main__ - INFO - Request 00ef6f3f-c03c-4e12-a731-30df5dca87e9: Sending request to LLM
+2025-06-16 11:56:18,270 - __main__ - INFO - Request 00ef6f3f-c03c-4e12-a731-30df5dca87e9: Received response from LLM
+2025-06-16 11:56:30,780 - __main__ - INFO - Audio file created with ElevenLabs: ./audio_files\audio_0baaeece-3d02-467f-a08c-b8d0a688341d.mp3
+2025-06-16 11:56:31,189 - __main__ - INFO - Audio overview saved successfully: 0baaeece-3d02-467f-a08c-b8d0a688341d
+2025-06-16 11:56:31,190 - __main__ - INFO - Request 00ef6f3f-c03c-4e12-a731-30df5dca87e9: Completed in 17.32 seconds
+2025-06-16 12:33:09,634 - __main__ - INFO - Request c46e074b-5e9f-4d5c-a43d-3a4a5d04221e: Starting audio overview generation
+2025-06-16 12:33:11,167 - __main__ - WARNING - Invalid JSON in: wtRWvEXBeNyGo7EWqvyr
+2025-06-16 12:33:11,177 - __main__ - INFO - Request c46e074b-5e9f-4d5c-a43d-3a4a5d04221e: Sending request to LLM
+2025-06-16 12:33:12,635 - __main__ - INFO - Request c46e074b-5e9f-4d5c-a43d-3a4a5d04221e: Received response from LLM
+2025-06-16 12:33:23,432 - __main__ - INFO - Audio file created with ElevenLabs: ./audio_files\audio_0bc5444d-c2a9-4429-bef9-011fda00e87d.mp3
+2025-06-16 12:33:23,873 - __main__ - INFO - Audio overview saved successfully: 0bc5444d-c2a9-4429-bef9-011fda00e87d
+2025-06-16 12:33:23,876 - __main__ - INFO - Request c46e074b-5e9f-4d5c-a43d-3a4a5d04221e: Completed in 14.25 seconds
+2025-06-16 12:37:33,654 - __main__ - INFO - Request a4baa759-fde7-47ea-937d-2a502229a5d6: Starting audio overview generation
+2025-06-16 12:37:35,675 - __main__ - WARNING - Invalid JSON in: wtRWvEXBeNyGo7EWqvyr
+2025-06-16 12:37:35,682 - __main__ - INFO - Request a4baa759-fde7-47ea-937d-2a502229a5d6: Sending request to LLM
+2025-06-16 12:37:36,769 - __main__ - INFO - Request a4baa759-fde7-47ea-937d-2a502229a5d6: Received response from LLM
+2025-06-16 12:37:47,416 - __main__ - INFO - Audio file created with ElevenLabs: ./audio_files\audio_0de4d6dd-2334-4586-a4c4-0cde403225dc.mp3
+2025-06-16 12:37:47,854 - __main__ - INFO - Audio overview saved successfully: 0de4d6dd-2334-4586-a4c4-0cde403225dc
+2025-06-16 12:37:47,855 - __main__ - INFO - Request a4baa759-fde7-47ea-937d-2a502229a5d6: Completed in 14.20 seconds
+2025-06-16 12:39:23,920 - __main__ - INFO - Request c8edcb8f-52bf-4856-993b-74584c4874a0: Starting audio overview generation
+2025-06-16 12:39:25,934 - __main__ - WARNING - Invalid JSON in: wtRWvEXBeNyGo7EWqvyr
+2025-06-16 12:39:25,942 - __main__ - INFO - Request c8edcb8f-52bf-4856-993b-74584c4874a0: Sending request to LLM
+2025-06-16 12:39:27,119 - __main__ - INFO - Request c8edcb8f-52bf-4856-993b-74584c4874a0: Received response from LLM
+2025-06-16 12:39:43,448 - __main__ - INFO - Audio file created with ElevenLabs: ./audio_files\audio_fbba17cb-5f2d-4e22-ab60-38f2444d2abc.mp3
+2025-06-16 12:39:45,279 - __main__ - INFO - Audio overview saved successfully: fbba17cb-5f2d-4e22-ab60-38f2444d2abc
+2025-06-16 12:39:45,281 - __main__ - INFO - Request c8edcb8f-52bf-4856-993b-74584c4874a0: Completed in 21.36 seconds
+2025-06-16 12:48:19,723 - __main__ - WARNING - SERPAPI_KEY not found in environment variables
+2025-06-16 12:48:19,809 - __main__ - ERROR - Missing Google OAuth environment variables
+2025-06-16 12:48:19,834 - __main__ - INFO - Starting Flask application
+2025-06-16 12:49:34,885 - __main__ - ERROR - Invalid or missing field: accessToken
+2025-06-16 13:06:04,026 - __main__ - INFO - Request 5188d2f6-89ff-4421-9954-1ad7a4125ce3: Starting mindmap generation
+2025-06-16 13:06:06,326 - __main__ - INFO - Request 5188d2f6-89ff-4421-9954-1ad7a4125ce3: Sending request to LLM
+2025-06-16 13:06:07,958 - __main__ - INFO - Request 5188d2f6-89ff-4421-9954-1ad7a4125ce3: Received response from LLM
+2025-06-16 13:06:08,371 - __main__ - INFO - Mindmap saved successfully: c81e876f-69e8-4f6a-9b8c-fe03d06280d9
+2025-06-16 13:06:08,380 - __main__ - INFO - Request 5188d2f6-89ff-4421-9954-1ad7a4125ce3: Completed in 4.36s

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PayChangu Inline Checkout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+    .container {
+      text-align: center;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 400px;
+      width: 90%;
+    }
+    h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #555;
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #218838;
+    }
+    button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    .error {
+      color: red;
+      margin-top: 10px;
+    }
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .spinner {
+      border: 3px solid #f3f3f3;
+      border-top: 3px solid #28a745;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>PayChangu Inline Checkout</h2>
+    <div id="payment-info"></div>
+    <div id="loading" class="loading" style="display: none;">
+      <div class="spinner"></div>
+      <span>Loading payment details...</span>
+    </div>
+    <form>
+      <div id="wrapper"></div>
+      <button type="button" id="payButton" onclick="makePayment()" disabled>Pay Now</button>
+    </form>
+    <p id="error" class="error" style="display: none;"></p>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://in.paychangu.com/js/popup.js"></script>
+  <script>
+    let paymentConfig = null;
+
+    // Function to retrieve payment config from URL parameters
+    function getPaymentConfig() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const config = {
+        public_key: urlParams.get('public_key'),
+        tx_ref: urlParams.get('tx_ref'),
+        amount: parseFloat(urlParams.get('amount')),
+        currency: urlParams.get('currency'),
+        callback_url: urlParams.get('callback_url'),
+        return_url: urlParams.get('return_url'),
+        customer: {
+          email: urlParams.get('email'),
+          first_name: urlParams.get('first_name'),
+          last_name: urlParams.get('last_name'),
+        },
+        customization: {
+          title: urlParams.get('title'),
+          description: urlParams.get('description'),
+        },
+        meta: {
+          lessonId: urlParams.get('lessonId'),
+          userId: urlParams.get('userId'),
+        },
+      };
+
+      // Validate required parameters
+      const requiredParams = ['public_key', 'tx_ref', 'amount', 'currency', 'callback_url', 'return_url', 'email', 'first_name', 'last_name', 'title', 'description', 'lessonId', 'userId'];
+      for (const param of requiredParams) {
+        if (!config[param] && !config.customer[param] && !config.customization[param] && !config.meta[param]) {
+          throw new Error(`Missing required parameter: ${param}`);
+        }
+      }
+
+      return config;
+    }
+
+    // Function to update UI with payment details
+    function updatePaymentInfo(config) {
+      const paymentInfo = document.getElementById('payment-info');
+      paymentInfo.innerHTML = `
+        <p>Pay ${config.amount} ${config.currency} for ${config.customization.description}</p>
+        <p>Customer: ${config.customer.first_name} ${config.customer.last_name} (${config.customer.email})</p>
+      `;
+    }
+
+    // Function to handle payment
+    function makePayment() {
+      if (!paymentConfig) {
+        document.getElementById('error').textContent = 'Payment configuration not loaded.';
+        document.getElementById('error').style.display = 'block';
+        return;
+      }
+
+      document.getElementById('payButton').disabled = true;
+      document.getElementById('error').style.display = 'none';
+
+      PaychanguCheckout({
+        public_key: paymentConfig.public_key,
+        tx_ref: paymentConfig.tx_ref,
+        amount: paymentConfig.amount,
+        currency: paymentConfig.currency,
+        callback_url: paymentConfig.callback_url,
+        return_url: paymentConfig.return_url,
+        customer: paymentConfig.customer,
+        customization: paymentConfig.customization,
+        meta: paymentConfig.meta,
+        callback: function(response) {
+          console.log('Payment response:', response);
+          // Post message to parent React app
+          window.parent.postMessage({
+            type: 'PAYMENT_RESPONSE',
+            response: response,
+          }, window.location.origin);
+          document.getElementById('payButton').disabled = false;
+        },
+        onclose: function() {
+          console.log('Payment popup closed');
+          window.parent.postMessage({
+            type: 'PAYMENT_CLOSED',
+          }, window.location.origin);
+          document.getElementById('payButton').disabled = false;
+        }
+      });
+    }
+
+    // Initialize on page load
+    window.onload = function() {
+      document.getElementById('loading').style.display = 'flex';
+      try {
+        paymentConfig = getPaymentConfig();
+        updatePaymentInfo(paymentConfig);
+        // Wait for PayChangu script to load
+        const checkScripts = setInterval(() => {
+          if (window.PaychanguCheckout) {
+            clearInterval(checkScripts);
+            document.getElementById('payButton').disabled = false;
+            document.getElementById('loading').style.display = 'none';
+          }
+        }, 100);
+
+        // Fallback timeout
+        setTimeout(() => {
+          if (!window.PaychanguCheckout) {
+            clearInterval(checkScripts);
+            document.getElementById('error').textContent = 'Failed to load payment system. Please try again.';
+            document.getElementById('error').style.display = 'block';
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('payButton').disabled = true;
+          }
+        }, 10000);
+      } catch (error) {
+        document.getElementById('error').textContent = error.message;
+        document.getElementById('error').style.display = 'block';
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('payButton').disabled = true;
+      }
+    };
+
+    // Listen for messages from React app (optional, for dynamic updates)
+    window.addEventListener('message', (event) => {
+      if (event.origin !== window.location.origin) return;
+      if (event.data.type === 'UPDATE_PAYMENT_CONFIG') {
+        try {
+          paymentConfig = event.data.config;
+          updatePaymentInfo(paymentConfig);
+          document.getElementById('payButton').disabled = false;
+          document.getElementById('loading').style.display = 'none';
+        } catch (error) {
+          document.getElementById('error').textContent = 'Invalid payment configuration received.';
+          document.getElementById('error').style.display = 'block';
+          document.getElementById('payButton').disabled = true;
+        }
+      }
+    });
+  </script>
+</body>
+</html>

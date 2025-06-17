@@ -1,0 +1,15 @@
+{
+  "tutors": {
+    "tutor1": {
+      "displayName": "John Smith",
+      "availability": {
+        "monday": "morning",
+        "tuesday": "afternoon",
+        "wednesday": "evening",
+        "thursday": "morning",
+        "friday": "afternoon"
+      }
+    }
+  },
+  "lessons": []
+}

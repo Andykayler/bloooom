@@ -1,0 +1,314 @@
+2025-05-27 14:07:58,389 - __main__ - INFO - Firebase initialized successfully
+2025-05-27 14:07:59,477 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-27 14:07:59,482 - __main__ - INFO - Starting tutor matching server on port 5007
+2025-05-27 14:19:16,096 - __main__ - ERROR - Server error da9c18fe-f4af-40e9-bda3-b27e27f7c6d2: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-05-27 14:19:22,417 - __main__ - ERROR - Server error d043f9f0-99b9-4051-8863-d8e66feba631: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-05-27 14:22:39,771 - __main__ - INFO - Firebase initialized successfully
+2025-05-27 14:22:39,935 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-27 14:22:39,940 - __main__ - INFO - Starting tutor matching server on port 5007
+2025-05-27 14:22:48,660 - __main__ - INFO - Request 4b928dc6-c827-4607-a38f-81816189a58f: Starting tutor matching
+2025-05-27 14:22:52,192 - __main__ - INFO - Request 4b928dc6-c827-4607-a38f-81816189a58f: Sending request to LLM
+2025-05-27 14:22:56,280 - __main__ - INFO - Request 4b928dc6-c827-4607-a38f-81816189a58f: Received response from LLM
+2025-05-27 14:22:56,281 - __main__ - ERROR - Error processing tutor ranking: Expecting value: line 1 column 1 (char 0)
+2025-05-27 14:22:56,289 - __main__ - WARNING - Request 4b928dc6-c827-4607-a38f-81816189a58f: Validation error: Expecting value: line 1 column 1 (char 0)
+2025-05-27 14:23:02,867 - __main__ - INFO - Request 9d6c5999-5410-4a7a-b077-503424ab05a9: Starting tutor matching
+2025-05-27 14:23:04,718 - __main__ - INFO - Request 9d6c5999-5410-4a7a-b077-503424ab05a9: Sending request to LLM
+2025-05-27 14:23:06,146 - __main__ - INFO - Request 9d6c5999-5410-4a7a-b077-503424ab05a9: Received response from LLM
+2025-05-27 14:23:06,148 - __main__ - ERROR - Error processing tutor ranking: Expecting value: line 1 column 1 (char 0)
+2025-05-27 14:23:06,153 - __main__ - WARNING - Request 9d6c5999-5410-4a7a-b077-503424ab05a9: Validation error: Expecting value: line 1 column 1 (char 0)
+2025-05-27 14:28:19,477 - __main__ - INFO - Firebase initialized successfully
+2025-05-27 14:28:19,628 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-27 14:28:19,636 - __main__ - INFO - Starting tutor matching server on port 5007
+2025-05-27 14:28:37,710 - __main__ - INFO - Request 936d3bda-c551-4b47-a755-028b0a5c3f17: Starting tutor matching
+2025-05-27 14:28:41,220 - __main__ - INFO - Request 936d3bda-c551-4b47-a755-028b0a5c3f17: Sending request to LLM
+2025-05-27 14:28:42,848 - __main__ - INFO - Request 936d3bda-c551-4b47-a755-028b0a5c3f17: Received response from LLM
+2025-05-27 14:28:42,849 - __main__ - INFO - Request 936d3bda-c551-4b47-a755-028b0a5c3f17: Completed in 5.14s
+2025-05-27 14:28:54,602 - __main__ - INFO - Request c684bcac-f32d-49da-b973-bba6bf1dab8a: Starting tutor matching
+2025-05-27 14:28:56,770 - __main__ - INFO - Request c684bcac-f32d-49da-b973-bba6bf1dab8a: Sending request to LLM
+2025-05-27 14:28:57,699 - __main__ - INFO - Request c684bcac-f32d-49da-b973-bba6bf1dab8a: Received response from LLM
+2025-05-27 14:28:57,700 - __main__ - INFO - Request c684bcac-f32d-49da-b973-bba6bf1dab8a: Completed in 3.10s
+2025-05-27 14:29:28,863 - __main__ - INFO - Request da81a167-748e-4abe-a1c6-429596c5c15d: Starting tutor matching
+2025-05-27 14:29:30,691 - __main__ - INFO - Request da81a167-748e-4abe-a1c6-429596c5c15d: Sending request to LLM
+2025-05-27 14:29:31,714 - __main__ - INFO - Request da81a167-748e-4abe-a1c6-429596c5c15d: Received response from LLM
+2025-05-27 14:29:31,716 - __main__ - INFO - Request da81a167-748e-4abe-a1c6-429596c5c15d: Completed in 2.85s
+2025-05-27 14:31:13,279 - __main__ - INFO - Request 240a0978-d26e-424e-856d-7b9110ab3fa0: Starting tutor matching
+2025-05-27 14:31:15,861 - __main__ - INFO - Request 240a0978-d26e-424e-856d-7b9110ab3fa0: Sending request to LLM
+2025-05-27 14:31:16,949 - __main__ - INFO - Request 240a0978-d26e-424e-856d-7b9110ab3fa0: Received response from LLM
+2025-05-27 14:31:17,025 - __main__ - INFO - Request 240a0978-d26e-424e-856d-7b9110ab3fa0: Completed in 3.75s
+2025-05-27 15:02:02,626 - __main__ - INFO - Request fcbc11b3-0ecb-433d-af0e-2da7d0a9529d: Starting tutor matching
+2025-05-27 15:02:04,896 - __main__ - INFO - Request fcbc11b3-0ecb-433d-af0e-2da7d0a9529d: Sending request to LLM
+2025-05-27 15:02:06,098 - __main__ - INFO - Request fcbc11b3-0ecb-433d-af0e-2da7d0a9529d: Received response from LLM
+2025-05-27 15:02:06,101 - __main__ - INFO - Request fcbc11b3-0ecb-433d-af0e-2da7d0a9529d: Completed in 3.48s
+2025-05-27 15:02:18,461 - __main__ - INFO - Request 0cc392a5-306d-450d-808e-90d01e179515: Starting tutor matching
+2025-05-27 15:02:18,908 - __main__ - INFO - Request 0cc392a5-306d-450d-808e-90d01e179515: Sending request to LLM
+2025-05-27 15:02:19,830 - __main__ - INFO - Request 0cc392a5-306d-450d-808e-90d01e179515: Received response from LLM
+2025-05-27 15:02:19,831 - __main__ - INFO - Request 0cc392a5-306d-450d-808e-90d01e179515: Completed in 1.37s
+2025-05-27 15:24:08,802 - __main__ - INFO - Firebase initialized successfully
+2025-05-27 15:24:09,095 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-27 15:24:09,102 - __main__ - INFO - Starting tutor matching server on port 5007
+2025-05-27 15:24:27,268 - __main__ - INFO - Request 6e71a9a2-96da-4bfd-8aaa-ca5aac0c1cb2: Starting tutor matching
+2025-05-27 15:24:27,269 - __main__ - INFO - Request 6e71a9a2-96da-4bfd-8aaa-ca5aac0c1cb2: Student preferences - Subjects: ['Data Structures and algorithms'], Interests: ['ICT', 'Computer Science', 'Algorithms'], Max Price: 20.0
+2025-05-27 15:24:29,053 - __main__ - INFO - Fetched 2 tutors with hourlyRate <= 20.0
+2025-05-27 15:24:29,054 - __main__ - INFO - Request 6e71a9a2-96da-4bfd-8aaa-ca5aac0c1cb2: Sending request to LLM
+2025-05-27 15:24:31,920 - __main__ - INFO - Request 6e71a9a2-96da-4bfd-8aaa-ca5aac0c1cb2: Received response from LLM
+2025-05-27 15:24:31,922 - __main__ - ERROR - JSON parsing error: Expecting value: line 1 column 1 (char 0) - Raw response: Here is the JSON array of tutor IDs sorted by relevance:
+
+[
+  "lIsS3pM2R2PKbZZ07IOFV9fAcTp2",
+  "UV0CfLffHDb8ZjvhnxKo5r9O29r2"
+]
+
+Here's the explanation:
+
+1. miles Kaunda (lIsS3pM2R2PKbZZ07IOFV9fAcTp2) matches the student's preferences exactly:
+	* Subject: "data structures and algorithms" matches the student's preferred subject.
+	* Qualifications: "bsc in computer science" contains "computer science", which is related to the student's interest.
+	* Hourly Rate: $10.0 is within the student's budget.
+	* Score: 3 (exact subject match, partial subject match, and within budget)
+2. Hillary Kaunda (UV0CfLffHDb8ZjvhnxKo5r9O29r2) does not match the student's preferences as well:
+	* Subject: "mathematics" does not match the student's preferred subject.
+	* Qualifications: "ict" is not directly related to the student's interest.
+	* Hourly Rate: $10.0 is within the student's budget.
+	* Score: 1 (partial subject match and within budget)
+
+The tutors are sorted by their relevance scores, with the least relevant first (Hillary Kaunda) and the most relevant last (miles Kaunda).
+2025-05-27 15:24:31,929 - __main__ - WARNING - Request 6e71a9a2-96da-4bfd-8aaa-ca5aac0c1cb2: Validation error: Invalid JSON response from LLM: Expecting value: line 1 column 1 (char 0)
+2025-05-27 15:24:37,968 - __main__ - INFO - Request 14ba4b0d-45a4-4ffd-bd38-92257fdf69ce: Starting tutor matching
+2025-05-27 15:24:37,969 - __main__ - INFO - Request 14ba4b0d-45a4-4ffd-bd38-92257fdf69ce: Student preferences - Subjects: ['Data Structures and algorithms'], Interests: ['ICT', 'Computer Science', 'Algorithms'], Max Price: 20.0
+2025-05-27 15:24:38,391 - __main__ - INFO - Fetched 2 tutors with hourlyRate <= 20.0
+2025-05-27 15:24:38,392 - __main__ - INFO - Request 14ba4b0d-45a4-4ffd-bd38-92257fdf69ce: Sending request to LLM
+2025-05-27 15:24:39,485 - __main__ - INFO - Request 14ba4b0d-45a4-4ffd-bd38-92257fdf69ce: Received response from LLM
+2025-05-27 15:24:39,487 - __main__ - ERROR - JSON parsing error: Expecting value: line 1 column 1 (char 0) - Raw response: Here is the JSON array of tutor IDs sorted by relevance:
+
+[
+  "lIsS3pM2R2PKbZZ07IOFV9fAcTp2",
+  "UV0CfLffHDb8ZjvhnxKo5r9O29r2"
+]
+
+Here's the explanation:
+
+1. miles Kaunda (lIsS3pM2R2PKbZZ07IOFV9fAcTp2) matches the student's preferences exactly:
+	* Subject: data structures and algorithms (exact match)
+	* Interests: ict, computer science, algorithms (related match in bio)
+	* Hourly Rate: $10 (within the student's budget)
+2. Hillary Kaunda (UV0CfLffHDb8ZjvhnxKo5r9O29r2) does not match the student's preferences as well:
+	* Subject: mathematics (no match)
+	* Interests: none mentioned (no match)
+	* Hourly Rate: $10 (within the student's budget, but not as relevant as the subject match)
+
+The ranking is based on the relevance of the tutor's subjects and interests to the student's preferences, with exact matches scoring higher than related matches.
+2025-05-27 15:24:39,494 - __main__ - WARNING - Request 14ba4b0d-45a4-4ffd-bd38-92257fdf69ce: Validation error: Invalid JSON response from LLM: Expecting value: line 1 column 1 (char 0)
+2025-05-27 15:30:07,252 - __main__ - INFO - Firebase initialized successfully
+2025-05-27 15:30:07,407 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-27 15:30:07,422 - __main__ - INFO - Starting tutor matching server on port 5007
+2025-05-27 15:30:27,810 - __main__ - INFO - Request 74e81e2d-121a-4cd0-b3c7-317368137888: Starting tutor matching
+2025-05-27 15:30:27,811 - __main__ - INFO - Request 74e81e2d-121a-4cd0-b3c7-317368137888: Student preferences - Subjects: ['Data Structures and algorithms'], Interests: ['ICT', 'Computer Science', 'Algorithms'], Max Price: 20.0
+2025-05-27 15:30:31,127 - __main__ - INFO - Fetched 2 tutors with hourlyRate <= 20.0
+2025-05-27 15:30:31,129 - __main__ - INFO - Request 74e81e2d-121a-4cd0-b3c7-317368137888: Sending request to LLM
+2025-05-27 15:30:33,167 - __main__ - INFO - Request 74e81e2d-121a-4cd0-b3c7-317368137888: Received response from LLM
+2025-05-27 15:30:33,169 - __main__ - INFO - Parsed 2 tutor IDs: ['lIsS3pM2R2PKbZZ07IOFV9fAcTp2', 'UV0CfLffHDb8ZjvhnxKo5r9O29r2']
+2025-05-27 15:30:33,179 - __main__ - INFO - Processed 2 tutors from 2 IDs
+2025-05-27 15:30:33,181 - __main__ - INFO - Request 74e81e2d-121a-4cd0-b3c7-317368137888: Completed in 5.37s with 2 tutors
+2025-05-27 15:30:43,925 - __main__ - INFO - Request c19662a8-518f-4d11-8a7a-02c3934f43f6: Starting tutor matching
+2025-05-27 15:30:43,926 - __main__ - INFO - Request c19662a8-518f-4d11-8a7a-02c3934f43f6: Student preferences - Subjects: ['Data Structures and algorithms'], Interests: ['ICT', 'Computer Science', 'Algorithms'], Max Price: 20.0
+2025-05-27 15:30:44,320 - __main__ - INFO - Fetched 2 tutors with hourlyRate <= 20.0
+2025-05-27 15:30:44,321 - __main__ - INFO - Request c19662a8-518f-4d11-8a7a-02c3934f43f6: Sending request to LLM
+2025-05-27 15:30:45,228 - __main__ - INFO - Request c19662a8-518f-4d11-8a7a-02c3934f43f6: Received response from LLM
+2025-05-27 15:30:45,231 - __main__ - INFO - Parsed 2 tutor IDs: ['lIsS3pM2R2PKbZZ07IOFV9fAcTp2', 'UV0CfLffHDb8ZjvhnxKo5r9O29r2']
+2025-05-27 15:30:45,235 - __main__ - INFO - Processed 2 tutors from 2 IDs
+2025-05-27 15:30:45,239 - __main__ - INFO - Request c19662a8-518f-4d11-8a7a-02c3934f43f6: Completed in 1.31s with 2 tutors
+2025-05-27 15:30:48,993 - __main__ - INFO - Request e05a33be-90a6-42d2-b62f-9409475309f5: Starting tutor matching
+2025-05-27 15:30:48,996 - __main__ - INFO - Request e05a33be-90a6-42d2-b62f-9409475309f5: Student preferences - Subjects: ['Data Structures and algorithms'], Interests: ['ICT', 'Computer Science', 'Algorithms'], Max Price: 20.0
+2025-05-27 15:30:49,413 - __main__ - INFO - Fetched 2 tutors with hourlyRate <= 20.0
+2025-05-27 15:30:49,414 - __main__ - INFO - Request e05a33be-90a6-42d2-b62f-9409475309f5: Sending request to LLM
+2025-05-27 15:30:51,891 - __main__ - INFO - Request e05a33be-90a6-42d2-b62f-9409475309f5: Received response from LLM
+2025-05-27 15:30:51,894 - __main__ - INFO - Parsed 2 tutor IDs: ['lIsS3pM2R2PKbZZ07IOFV9fAcTp2', 'UV0CfLffHDb8ZjvhnxKo5r9O29r2']
+2025-05-27 15:30:51,905 - __main__ - INFO - Processed 2 tutors from 2 IDs
+2025-05-27 15:30:51,908 - __main__ - INFO - Request e05a33be-90a6-42d2-b62f-9409475309f5: Completed in 2.91s with 2 tutors
+2025-05-27 15:41:29,247 - __main__ - INFO - Request a061bc51-c22a-4ec9-bf32-16d108e6668c: Starting tutor matching
+2025-05-27 15:41:29,250 - __main__ - INFO - Request a061bc51-c22a-4ec9-bf32-16d108e6668c: Student preferences - Subjects: ['Biology'], Interests: ['Biology', 'biollogical weapons'], Max Price: 30.0
+2025-05-27 15:41:31,455 - __main__ - INFO - Fetched 3 tutors with hourlyRate <= 30.0
+2025-05-27 15:41:31,456 - __main__ - INFO - Request a061bc51-c22a-4ec9-bf32-16d108e6668c: Sending request to LLM
+2025-05-27 15:41:32,771 - __main__ - INFO - Request a061bc51-c22a-4ec9-bf32-16d108e6668c: Received response from LLM
+2025-05-27 15:41:32,772 - __main__ - INFO - Parsed 2 tutor IDs: ['fSIA3CMMqJfhJVWXWSwInpkGYCA2', 'UV0CfLffHDb8ZjvhnxKo5r9O29r2']
+2025-05-27 15:41:32,781 - __main__ - INFO - Processed 2 tutors from 2 IDs
+2025-05-27 15:41:32,794 - __main__ - INFO - Request a061bc51-c22a-4ec9-bf32-16d108e6668c: Completed in 3.55s with 2 tutors
+2025-05-27 15:43:45,769 - __main__ - INFO - Request 1bea8929-f71e-472d-bb41-7fb8c27dde98: Starting tutor matching
+2025-05-27 15:43:45,770 - __main__ - INFO - Request 1bea8929-f71e-472d-bb41-7fb8c27dde98: Student preferences - Subjects: ['Biology'], Interests: ['plants'], Max Price: 50.0
+2025-05-27 15:43:46,571 - __main__ - INFO - Fetched 3 tutors with hourlyRate <= 50.0
+2025-05-27 15:43:46,573 - __main__ - INFO - Request 1bea8929-f71e-472d-bb41-7fb8c27dde98: Sending request to LLM
+2025-05-27 15:43:47,649 - __main__ - INFO - Request 1bea8929-f71e-472d-bb41-7fb8c27dde98: Received response from LLM
+2025-05-27 15:43:47,651 - __main__ - INFO - Parsed 2 tutor IDs: ['fSIA3CMMqJfhJVWXWSwInpkGYCA2', 'lIsS3pM2R2PKbZZ07IOFV9fAcTp2']
+2025-05-27 15:43:47,654 - __main__ - INFO - Processed 2 tutors from 2 IDs
+2025-05-27 15:43:47,656 - __main__ - INFO - Request 1bea8929-f71e-472d-bb41-7fb8c27dde98: Completed in 1.89s with 2 tutors
+2025-05-27 15:45:21,220 - __main__ - INFO - Request d6183883-4b32-4edd-a7e6-9da9dbf937f4: Starting tutor matching
+2025-05-27 15:45:21,221 - __main__ - INFO - Request d6183883-4b32-4edd-a7e6-9da9dbf937f4: Student preferences - Subjects: ['Biology'], Interests: ['plants'], Max Price: 30.0
+2025-05-27 15:45:22,024 - __main__ - INFO - Fetched 3 tutors with hourlyRate <= 30.0
+2025-05-27 15:45:22,026 - __main__ - INFO - Request d6183883-4b32-4edd-a7e6-9da9dbf937f4: Sending request to LLM
+2025-05-27 15:45:23,021 - __main__ - INFO - Request d6183883-4b32-4edd-a7e6-9da9dbf937f4: Received response from LLM
+2025-05-27 15:45:23,022 - __main__ - INFO - Parsed 2 tutor IDs: ['fSIA3CMMqJfhJVWXWSwInpkGYCA2', 'lIsS3pM2R2PKbZZ07IOFV9fAcTp2']
+2025-05-27 15:45:23,034 - __main__ - INFO - Processed 2 tutors from 2 IDs
+2025-05-27 15:45:23,035 - __main__ - INFO - Request d6183883-4b32-4edd-a7e6-9da9dbf937f4: Completed in 1.82s with 2 tutors
+2025-05-28 08:07:16,622 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 08:07:16,810 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 08:07:16,828 - __main__ - INFO - Starting tutor matching server on port 5007
+2025-05-28 08:09:23,425 - __main__ - INFO - Request ddca6115-c859-4035-88eb-5f3ae81f2fb5: Starting tutor matching
+2025-05-28 08:09:23,426 - __main__ - INFO - Request ddca6115-c859-4035-88eb-5f3ae81f2fb5: Student preferences - Subjects: ['Mathematics'], Interests: ['Search trees'], Max Price: 50.0
+2025-05-28 08:09:26,673 - __main__ - INFO - Fetched 3 tutors with hourlyRate <= 50.0
+2025-05-28 08:09:26,675 - __main__ - INFO - Request ddca6115-c859-4035-88eb-5f3ae81f2fb5: Sending request to LLM
+2025-05-28 08:09:29,457 - __main__ - INFO - Request ddca6115-c859-4035-88eb-5f3ae81f2fb5: Received response from LLM
+2025-05-28 08:09:29,459 - __main__ - INFO - Parsed 2 tutor IDs: ['UV0CfLffHDb8ZjvhnxKo5r9O29r2', 'lIsS3pM2R2PKbZZ07IOFV9fAcTp2']
+2025-05-28 08:09:29,464 - __main__ - INFO - Processed 2 tutors from 2 IDs
+2025-05-28 08:09:29,471 - __main__ - INFO - Request ddca6115-c859-4035-88eb-5f3ae81f2fb5: Completed in 6.05s with 2 tutors
+2025-05-28 08:40:03,096 - __main__ - INFO - Request d563bd9c-b8a0-47f0-8359-f5d51eccded6: Starting tutor matching
+2025-05-28 08:40:03,107 - __main__ - INFO - Request d563bd9c-b8a0-47f0-8359-f5d51eccded6: Student preferences - Subjects: ['Mathematics'], Interests: ['Data', 'graphs', 'calculations'], Max Price: 20.0
+2025-05-28 08:40:05,919 - __main__ - INFO - Fetched 3 tutors with hourlyRate <= 20.0
+2025-05-28 08:40:05,922 - __main__ - INFO - Request d563bd9c-b8a0-47f0-8359-f5d51eccded6: Sending request to LLM
+2025-05-28 08:40:07,732 - __main__ - INFO - Request d563bd9c-b8a0-47f0-8359-f5d51eccded6: Received response from LLM
+2025-05-28 08:40:07,734 - __main__ - INFO - Parsed 2 tutor IDs: ['UV0CfLffHDb8ZjvhnxKo5r9O29r2', 'lIsS3pM2R2PKbZZ07IOFV9fAcTp2']
+2025-05-28 08:40:07,736 - __main__ - INFO - Processed 2 tutors from 2 IDs
+2025-05-28 08:40:07,737 - __main__ - INFO - Request d563bd9c-b8a0-47f0-8359-f5d51eccded6: Completed in 4.65s with 2 tutors
+2025-05-28 08:42:09,039 - __main__ - INFO - Request 0bc1a791-f395-4020-ba4f-ce5c12cea2fc: Starting tutor matching
+2025-05-28 08:42:09,040 - __main__ - INFO - Request 0bc1a791-f395-4020-ba4f-ce5c12cea2fc: Student preferences - Subjects: ['Mathematics'], Interests: ['Data', 'graphs', 'calculations'], Max Price: 20.0
+2025-05-28 08:42:09,556 - __main__ - INFO - Fetched 3 tutors with hourlyRate <= 20.0
+2025-05-28 08:42:09,557 - __main__ - INFO - Request 0bc1a791-f395-4020-ba4f-ce5c12cea2fc: Sending request to LLM
+2025-05-28 08:42:11,037 - __main__ - INFO - Request 0bc1a791-f395-4020-ba4f-ce5c12cea2fc: Received response from LLM
+2025-05-28 08:42:11,038 - __main__ - INFO - Parsed 2 tutor IDs: ['UV0CfLffHDb8ZjvhnxKo5r9O29r2', 'lIsS3pM2R2PKbZZ07IOFV9fAcTp2']
+2025-05-28 08:42:11,045 - __main__ - INFO - Processed 2 tutors from 2 IDs
+2025-05-28 08:42:11,051 - __main__ - INFO - Request 0bc1a791-f395-4020-ba4f-ce5c12cea2fc: Completed in 2.01s with 2 tutors
+2025-05-28 08:42:37,431 - __main__ - INFO - Request 7f889eb2-8222-4806-a068-13be0470fe32: Starting tutor matching
+2025-05-28 08:42:37,432 - __main__ - INFO - Request 7f889eb2-8222-4806-a068-13be0470fe32: Student preferences - Subjects: ['biology'], Interests: ['plants', 'bioweapons'], Max Price: 20.0
+2025-05-28 08:42:37,886 - __main__ - INFO - Fetched 3 tutors with hourlyRate <= 20.0
+2025-05-28 08:42:37,887 - __main__ - INFO - Request 7f889eb2-8222-4806-a068-13be0470fe32: Sending request to LLM
+2025-05-28 08:42:39,065 - __main__ - INFO - Request 7f889eb2-8222-4806-a068-13be0470fe32: Received response from LLM
+2025-05-28 08:42:39,066 - __main__ - INFO - Parsed 2 tutor IDs: ['fSIA3CMMqJfhJVWXWSwInpkGYCA2', 'UV0CfLffHDb8ZjvhnxKo5r9O29r2']
+2025-05-28 08:42:39,075 - __main__ - INFO - Processed 2 tutors from 2 IDs
+2025-05-28 08:42:39,083 - __main__ - INFO - Request 7f889eb2-8222-4806-a068-13be0470fe32: Completed in 1.65s with 2 tutors
+2025-05-28 08:43:06,280 - __main__ - INFO - Request 9fdb9c1d-35d3-4c98-9c35-e4454f3fa33d: Starting tutor matching
+2025-05-28 08:43:06,282 - __main__ - INFO - Request 9fdb9c1d-35d3-4c98-9c35-e4454f3fa33d: Student preferences - Subjects: ['physics'], Interests: ['plants', 'bioweapons'], Max Price: 20.0
+2025-05-28 08:43:06,728 - __main__ - INFO - Fetched 3 tutors with hourlyRate <= 20.0
+2025-05-28 08:43:06,729 - __main__ - INFO - Request 9fdb9c1d-35d3-4c98-9c35-e4454f3fa33d: Sending request to LLM
+2025-05-28 08:43:08,186 - __main__ - INFO - Request 9fdb9c1d-35d3-4c98-9c35-e4454f3fa33d: Received response from LLM
+2025-05-28 08:43:08,188 - __main__ - INFO - Parsed 2 tutor IDs: ['fSIA3CMMqJfhJVWXWSwInpkGYCA2', 'UV0CfLffHDb8ZjvhnxKo5r9O29r2']
+2025-05-28 08:43:08,201 - __main__ - INFO - Processed 2 tutors from 2 IDs
+2025-05-28 08:43:08,202 - __main__ - INFO - Request 9fdb9c1d-35d3-4c98-9c35-e4454f3fa33d: Completed in 1.92s with 2 tutors
+2025-05-28 08:44:00,518 - __main__ - INFO - Request 7b595723-77bd-4cab-9c7b-f6f5f115c0ef: Starting tutor matching
+2025-05-28 08:44:00,519 - __main__ - INFO - Request 7b595723-77bd-4cab-9c7b-f6f5f115c0ef: Student preferences - Subjects: ['physics'], Interests: ['plants', 'bioweapons'], Max Price: 20.0
+2025-05-28 08:44:00,991 - __main__ - INFO - Fetched 3 tutors with hourlyRate <= 20.0
+2025-05-28 08:44:00,992 - __main__ - INFO - Request 7b595723-77bd-4cab-9c7b-f6f5f115c0ef: Sending request to LLM
+2025-05-28 08:44:02,441 - __main__ - INFO - Request 7b595723-77bd-4cab-9c7b-f6f5f115c0ef: Received response from LLM
+2025-05-28 08:44:02,443 - __main__ - INFO - Parsed 2 tutor IDs: ['lIsS3pM2R2PKbZZ07IOFV9fAcTp2', 'fSIA3CMMqJfhJVWXWSwInpkGYCA2']
+2025-05-28 08:44:02,454 - __main__ - INFO - Processed 2 tutors from 2 IDs
+2025-05-28 08:44:02,455 - __main__ - INFO - Request 7b595723-77bd-4cab-9c7b-f6f5f115c0ef: Completed in 1.94s with 2 tutors
+2025-05-28 09:00:09,305 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 09:00:09,433 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 09:00:09,440 - __main__ - INFO - Starting tutor matching server on port 5007
+2025-05-28 11:34:30,455 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 11:34:30,513 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 11:34:30,515 - __main__ - INFO - Starting tutor matching server on port 5007
+2025-05-28 12:21:25,544 - __main__ - INFO - Request b7dd2fd0-0597-49ce-b2b9-e6b5ae38aa53: Starting tutor matching
+2025-05-28 12:21:25,544 - __main__ - INFO - Request b7dd2fd0-0597-49ce-b2b9-e6b5ae38aa53: Student preferences - Subjects: ['Routing and Switches'], Interests: ['web socketing', 'Ict'], Max Price: 100.0
+2025-05-28 12:21:27,392 - __main__ - INFO - Fetched 4 tutors with hourlyRate <= 100.0
+2025-05-28 12:21:27,392 - __main__ - INFO - Request b7dd2fd0-0597-49ce-b2b9-e6b5ae38aa53: Sending request to LLM
+2025-05-28 12:21:29,515 - __main__ - INFO - Request b7dd2fd0-0597-49ce-b2b9-e6b5ae38aa53: Received response from LLM
+2025-05-28 12:21:29,516 - __main__ - INFO - Parsed 3 tutor IDs: ['UV0CfLffHDb8ZjvhnxKo5r9O29r2', 'lIsS3pM2R2PKbZZ07IOFV9fAcTp2', 'fSIA3CMMqJfhJVWXWSwInpkGYCA2']
+2025-05-28 12:21:29,517 - __main__ - INFO - Processed 3 tutors from 3 IDs
+2025-05-28 12:21:29,517 - __main__ - INFO - Request b7dd2fd0-0597-49ce-b2b9-e6b5ae38aa53: Completed in 3.97s with 3 tutors
+2025-05-28 12:22:01,069 - __main__ - INFO - Request 5c341bec-6c81-46bf-8028-51b02f65b20b: Starting tutor matching
+2025-05-28 12:22:01,071 - __main__ - INFO - Request 5c341bec-6c81-46bf-8028-51b02f65b20b: Student preferences - Subjects: ['Networking'], Interests: ['web socketing', 'Ict'], Max Price: 100.0
+2025-05-28 12:22:01,521 - __main__ - INFO - Fetched 4 tutors with hourlyRate <= 100.0
+2025-05-28 12:22:01,521 - __main__ - INFO - Request 5c341bec-6c81-46bf-8028-51b02f65b20b: Sending request to LLM
+2025-05-28 12:22:02,472 - __main__ - INFO - Request 5c341bec-6c81-46bf-8028-51b02f65b20b: Received response from LLM
+2025-05-28 12:22:02,472 - __main__ - INFO - Parsed 3 tutor IDs: ['UV0CfLffHDb8ZjvhnxKo5r9O29r2', 'lIsS3pM2R2PKbZZ07IOFV9fAcTp2', 'IGCTdYB2NAZxpVKBZmDuDtvCtHB2']
+2025-05-28 12:22:02,473 - __main__ - INFO - Processed 3 tutors from 3 IDs
+2025-05-28 12:22:02,474 - __main__ - INFO - Request 5c341bec-6c81-46bf-8028-51b02f65b20b: Completed in 1.40s with 3 tutors
+2025-05-28 12:22:48,680 - __main__ - INFO - Request d728ce46-8c42-450f-ab1b-4c62621c0805: Starting tutor matching
+2025-05-28 12:22:48,681 - __main__ - INFO - Request d728ce46-8c42-450f-ab1b-4c62621c0805: Student preferences - Subjects: ['Networking'], Interests: ['web socketing', 'Ict'], Max Price: 100.0
+2025-05-28 12:22:49,072 - __main__ - INFO - Fetched 4 tutors with hourlyRate <= 100.0
+2025-05-28 12:22:49,073 - __main__ - INFO - Request d728ce46-8c42-450f-ab1b-4c62621c0805: Sending request to LLM
+2025-05-28 12:22:50,318 - __main__ - INFO - Request d728ce46-8c42-450f-ab1b-4c62621c0805: Received response from LLM
+2025-05-28 12:22:50,318 - __main__ - INFO - Parsed 3 tutor IDs: ['UV0CfLffHDb8ZjvhnxKo5r9O29r2', 'lIsS3pM2R2PKbZZ07IOFV9fAcTp2', 'IGCTdYB2NAZxpVKBZmDuDtvCtHB2']
+2025-05-28 12:22:50,319 - __main__ - INFO - Processed 3 tutors from 3 IDs
+2025-05-28 12:22:50,319 - __main__ - INFO - Request d728ce46-8c42-450f-ab1b-4c62621c0805: Completed in 1.64s with 3 tutors
+2025-05-28 12:23:07,885 - __main__ - INFO - Request 042f3691-d19a-4bf3-8d35-bfb2d6423911: Starting tutor matching
+2025-05-28 12:23:07,886 - __main__ - INFO - Request 042f3691-d19a-4bf3-8d35-bfb2d6423911: Student preferences - Subjects: ['Networking'], Interests: ['web socketing', 'Ict'], Max Price: 100.0
+2025-05-28 12:23:08,279 - __main__ - INFO - Fetched 4 tutors with hourlyRate <= 100.0
+2025-05-28 12:23:08,279 - __main__ - INFO - Request 042f3691-d19a-4bf3-8d35-bfb2d6423911: Sending request to LLM
+2025-05-28 12:23:10,113 - __main__ - INFO - Request 042f3691-d19a-4bf3-8d35-bfb2d6423911: Received response from LLM
+2025-05-28 12:23:10,114 - __main__ - INFO - Parsed 3 tutor IDs: ['UV0CfLffHDb8ZjvhnxKo5r9O29r2', 'lIsS3pM2R2PKbZZ07IOFV9fAcTp2', 'IGCTdYB2NAZxpVKBZmDuDtvCtHB2']
+2025-05-28 12:23:10,114 - __main__ - INFO - Processed 3 tutors from 3 IDs
+2025-05-28 12:23:10,115 - __main__ - INFO - Request 042f3691-d19a-4bf3-8d35-bfb2d6423911: Completed in 2.23s with 3 tutors
+2025-05-28 12:23:21,044 - __main__ - INFO - Request c30e07f3-ec74-45d4-b428-2b903dd1da5b: Starting tutor matching
+2025-05-28 12:23:21,044 - __main__ - INFO - Request c30e07f3-ec74-45d4-b428-2b903dd1da5b: Student preferences - Subjects: ['Networking'], Interests: ['web socketing'], Max Price: 100.0
+2025-05-28 12:23:21,448 - __main__ - INFO - Fetched 4 tutors with hourlyRate <= 100.0
+2025-05-28 12:23:21,448 - __main__ - INFO - Request c30e07f3-ec74-45d4-b428-2b903dd1da5b: Sending request to LLM
+2025-05-28 12:23:22,279 - __main__ - INFO - Request c30e07f3-ec74-45d4-b428-2b903dd1da5b: Received response from LLM
+2025-05-28 12:23:22,280 - __main__ - INFO - Parsed 2 tutor IDs: ['UV0CfLffHDb8ZjvhnxKo5r9O29r2', 'lIsS3pM2R2PKbZZ07IOFV9fAcTp2']
+2025-05-28 12:23:22,281 - __main__ - INFO - Processed 2 tutors from 2 IDs
+2025-05-28 12:23:22,281 - __main__ - INFO - Request c30e07f3-ec74-45d4-b428-2b903dd1da5b: Completed in 1.24s with 2 tutors
+2025-05-28 12:23:37,951 - __main__ - INFO - Request afc99c0b-23a2-4bf1-9542-e905d912a0e0: Starting tutor matching
+2025-05-28 12:23:37,952 - __main__ - INFO - Request afc99c0b-23a2-4bf1-9542-e905d912a0e0: Student preferences - Subjects: ['Networking'], Interests: ['networking'], Max Price: 100.0
+2025-05-28 12:23:38,352 - __main__ - INFO - Fetched 4 tutors with hourlyRate <= 100.0
+2025-05-28 12:23:38,353 - __main__ - INFO - Request afc99c0b-23a2-4bf1-9542-e905d912a0e0: Sending request to LLM
+2025-05-28 12:23:39,148 - __main__ - INFO - Request afc99c0b-23a2-4bf1-9542-e905d912a0e0: Received response from LLM
+2025-05-28 12:23:39,149 - __main__ - INFO - Parsed 2 tutor IDs: ['UV0CfLffHDb8ZjvhnxKo5r9O29r2', 'lIsS3pM2R2PKbZZ07IOFV9fAcTp2']
+2025-05-28 12:23:39,150 - __main__ - INFO - Processed 2 tutors from 2 IDs
+2025-05-28 12:23:39,151 - __main__ - INFO - Request afc99c0b-23a2-4bf1-9542-e905d912a0e0: Completed in 1.20s with 2 tutors
+2025-05-28 12:27:40,918 - __main__ - INFO - Request faffbeea-b0cd-4aee-ba21-4147a5fc72fa: Starting tutor matching
+2025-05-28 12:27:40,919 - __main__ - INFO - Request faffbeea-b0cd-4aee-ba21-4147a5fc72fa: Student preferences - Subjects: ['Networking'], Interests: ['networking'], Max Price: 100.0
+2025-05-28 12:27:42,868 - __main__ - INFO - Fetched 3 tutors with hourlyRate <= 100.0
+2025-05-28 12:27:42,868 - __main__ - INFO - Request faffbeea-b0cd-4aee-ba21-4147a5fc72fa: Sending request to LLM
+2025-05-28 12:27:44,019 - __main__ - INFO - Request faffbeea-b0cd-4aee-ba21-4147a5fc72fa: Received response from LLM
+2025-05-28 12:27:44,020 - __main__ - INFO - Parsed 2 tutor IDs: ['lIsS3pM2R2PKbZZ07IOFV9fAcTp2', 'IGCTdYB2NAZxpVKBZmDuDtvCtHB2']
+2025-05-28 12:27:44,020 - __main__ - INFO - Processed 2 tutors from 2 IDs
+2025-05-28 12:27:44,021 - __main__ - INFO - Request faffbeea-b0cd-4aee-ba21-4147a5fc72fa: Completed in 3.10s with 2 tutors
+2025-05-28 12:31:28,389 - __main__ - INFO - Request 5ea2fa0f-2066-403d-9bee-460e517cb79f: Starting tutor matching
+2025-05-28 12:31:28,390 - __main__ - INFO - Request 5ea2fa0f-2066-403d-9bee-460e517cb79f: Student preferences - Subjects: ['Networking'], Interests: ['networking'], Max Price: 100.0
+2025-05-28 12:31:30,407 - __main__ - INFO - Fetched 2 tutors with hourlyRate <= 100.0
+2025-05-28 12:31:30,408 - __main__ - INFO - Request 5ea2fa0f-2066-403d-9bee-460e517cb79f: Sending request to LLM
+2025-05-28 12:31:31,281 - __main__ - INFO - Request 5ea2fa0f-2066-403d-9bee-460e517cb79f: Received response from LLM
+2025-05-28 12:31:31,281 - __main__ - INFO - Parsed 2 tutor IDs: ['fSIA3CMMqJfhJVWXWSwInpkGYCA2', 'IGCTdYB2NAZxpVKBZmDuDtvCtHB2']
+2025-05-28 12:31:31,282 - __main__ - INFO - Processed 2 tutors from 2 IDs
+2025-05-28 12:31:31,282 - __main__ - INFO - Request 5ea2fa0f-2066-403d-9bee-460e517cb79f: Completed in 2.89s with 2 tutors
+2025-05-28 12:32:33,001 - __main__ - INFO - Request b6e2139d-5402-4e7c-b65d-f1b01af3a38f: Starting tutor matching
+2025-05-28 12:32:33,002 - __main__ - INFO - Request b6e2139d-5402-4e7c-b65d-f1b01af3a38f: Student preferences - Subjects: ['Networking'], Interests: ['networking'], Max Price: 100.0
+2025-05-28 12:32:35,452 - __main__ - INFO - Fetched 1 tutors with hourlyRate <= 100.0
+2025-05-28 12:32:35,453 - __main__ - INFO - Request b6e2139d-5402-4e7c-b65d-f1b01af3a38f: Sending request to LLM
+2025-05-28 12:32:36,437 - __main__ - INFO - Request b6e2139d-5402-4e7c-b65d-f1b01af3a38f: Received response from LLM
+2025-05-28 12:32:36,438 - __main__ - INFO - Parsed 1 tutor IDs: ['IGCTdYB2NAZxpVKBZmDuDtvCtHB2']
+2025-05-28 12:32:36,439 - __main__ - INFO - Processed 1 tutors from 1 IDs
+2025-05-28 12:32:36,439 - __main__ - INFO - Request b6e2139d-5402-4e7c-b65d-f1b01af3a38f: Completed in 3.44s with 1 tutors
+2025-05-28 14:43:37,438 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 14:43:37,806 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 14:43:37,814 - __main__ - INFO - Starting tutor matching server on port 5007
+2025-05-28 14:57:27,421 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 14:57:27,483 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 14:57:27,485 - __main__ - INFO - Starting tutor matching server on port 5007
+2025-05-28 15:22:37,787 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 15:22:37,954 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 15:22:37,960 - __main__ - INFO - Starting tutor matching server on port 5007
+2025-05-28 15:27:48,567 - __main__ - INFO - Request dfe4ba53-a459-48fe-bf4a-14c295376ed9: Starting tutor matching
+2025-05-28 15:27:48,567 - __main__ - INFO - Request dfe4ba53-a459-48fe-bf4a-14c295376ed9: Student preferences - Subjects: ['networking', 'routing and switches'], Interests: ['ICT', 'COnnectivity'], Max Price: 100.0
+2025-05-28 15:27:53,199 - __main__ - INFO - Fetched 1 tutors with hourlyRate <= 100.0
+2025-05-28 15:27:53,199 - __main__ - INFO - Request dfe4ba53-a459-48fe-bf4a-14c295376ed9: Sending request to LLM
+2025-05-28 15:27:55,448 - __main__ - INFO - Request dfe4ba53-a459-48fe-bf4a-14c295376ed9: Received response from LLM
+2025-05-28 15:27:55,449 - __main__ - INFO - Parsed 1 tutor IDs: ['IGCTdYB2NAZxpVKBZmDuDtvCtHB2']
+2025-05-28 15:27:55,449 - __main__ - INFO - Processed 1 tutors from 1 IDs
+2025-05-28 15:27:55,450 - __main__ - INFO - Request dfe4ba53-a459-48fe-bf4a-14c295376ed9: Completed in 6.88s with 1 tutors
+2025-06-03 22:29:08,711 - __main__ - INFO - Firebase initialized successfully
+2025-06-03 22:29:09,030 - __main__ - INFO - LLM client initialized with provider: groq
+2025-06-03 22:29:09,033 - __main__ - INFO - Starting tutor matching server on port 5007
+2025-06-03 22:35:40,401 - __main__ - INFO - Request c8d76926-e330-4079-90dd-2496bc22cdf4: Starting tutor matching
+2025-06-03 22:35:40,402 - __main__ - INFO - Request c8d76926-e330-4079-90dd-2496bc22cdf4: Student preferences - Subjects: ['mathematics'], Interests: ['ICT'], Max Price: 1500.0
+2025-06-03 22:35:43,701 - __main__ - INFO - Fetched 4 tutors with hourlyRate <= 1500.0
+2025-06-03 22:35:43,703 - __main__ - INFO - Request c8d76926-e330-4079-90dd-2496bc22cdf4: Sending request to LLM
+2025-06-03 22:35:47,029 - __main__ - INFO - Request c8d76926-e330-4079-90dd-2496bc22cdf4: Received response from LLM
+2025-06-03 22:35:47,030 - __main__ - INFO - Parsed 2 tutor IDs: ['UV0CfLffHDb8ZjvhnxKo5r9O29r2', 'lIsS3pM2R2PKbZZ07IOFV9fAcTp2']
+2025-06-03 22:35:47,031 - __main__ - INFO - Processed 2 tutors from 2 IDs
+2025-06-03 22:35:47,031 - __main__ - INFO - Request c8d76926-e330-4079-90dd-2496bc22cdf4: Completed in 6.63s with 2 tutors
+2025-06-07 10:12:22,841 - __main__ - INFO - Firebase initialized successfully
+2025-06-07 10:12:22,939 - __main__ - INFO - LLM client initialized with provider: groq
+2025-06-07 10:12:22,943 - __main__ - INFO - Starting tutor matching server on port 5007
+2025-06-10 08:24:41,929 - __main__ - INFO - Firebase initialized successfully
+2025-06-10 08:24:42,003 - __main__ - INFO - LLM client initialized with provider: groq
+2025-06-10 08:24:42,005 - __main__ - INFO - Starting tutor matching server on port 5007

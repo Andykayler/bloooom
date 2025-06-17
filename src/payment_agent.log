@@ -1,0 +1,70 @@
+2025-05-28 00:55:17,818 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 00:55:18,590 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 00:55:18,606 - __main__ - INFO - Starting payment agent server on port 5006
+2025-05-28 01:11:54,099 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 01:12:05,385 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 01:12:05,396 - __main__ - INFO - Starting payment agent server on port 5006
+2025-05-28 01:12:12,037 - __main__ - ERROR - Request validation failed: Missing required field 'studentId'
+2025-05-28 01:24:05,572 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 01:24:10,162 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 01:24:10,270 - __main__ - INFO - Starting payment agent server on port 5006
+2025-05-28 01:24:26,993 - __main__ - ERROR - Request validation failed: Invalid amount type: <class 'NoneType'>
+2025-05-28 02:02:06,145 - __main__ - ERROR - Request validation failed: Invalid lessonId: FBsgwpEIFTGSEpJ9wczG
+2025-05-28 02:33:01,954 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 02:33:02,234 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 02:33:02,239 - __main__ - INFO - Starting payment agent server on port 5006
+2025-05-28 02:37:56,831 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 02:37:57,459 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 02:37:57,574 - __main__ - INFO - Starting payment agent server on port 5006
+2025-05-28 03:08:09,846 - __main__ - INFO - Request 918607aa-a1a1-41f3-87fb-aed9a1daa135: Starting payment processing
+2025-05-28 03:08:20,970 - __main__ - INFO - Created payment record: 32d96c15-3fae-4e92-9240-a07df183ec67
+2025-05-28 03:08:22,620 - __main__ - WARNING - Payment attempt 1 failed: 405 Client Error: Method Not Allowed for url: https://api.paychangu.com/payments
+2025-05-28 03:08:25,810 - __main__ - WARNING - Payment attempt 2 failed: 405 Client Error: Method Not Allowed for url: https://api.paychangu.com/payments
+2025-05-28 03:08:30,995 - __main__ - WARNING - Payment attempt 3 failed: 405 Client Error: Method Not Allowed for url: https://api.paychangu.com/payments
+2025-05-28 03:08:32,359 - __main__ - WARNING - Request 918607aa-a1a1-41f3-87fb-aed9a1daa135: Payment failed, recovery plan: {'retry_required': True, 'retry_after_seconds': 300, 'new_payment_data': None, 'error_message': 'Payment processing failed due to method not allowed error', 'should_notify_admin': True, 'next_step': 'retry'}
+2025-05-28 07:04:02,595 - __main__ - INFO - Request 918607aa-a1a1-41f3-87fb-aed9a1daa135: Retrying payment...
+2025-05-28 07:04:04,461 - __main__ - WARNING - Payment attempt 1 failed: 405 Client Error: Method Not Allowed for url: https://api.paychangu.com/payments
+2025-05-28 07:04:07,660 - __main__ - WARNING - Payment attempt 2 failed: 405 Client Error: Method Not Allowed for url: https://api.paychangu.com/payments
+2025-05-28 07:04:12,819 - __main__ - WARNING - Payment attempt 3 failed: 405 Client Error: Method Not Allowed for url: https://api.paychangu.com/payments
+2025-05-28 07:04:12,832 - __main__ - ERROR - Request 918607aa-a1a1-41f3-87fb-aed9a1daa135: Retry failed: 405 Client Error: Method Not Allowed for url: https://api.paychangu.com/payments
+2025-05-28 07:04:16,114 - __main__ - INFO - Updated payment 32d96c15-3fae-4e92-9240-a07df183ec67 to status: failed
+2025-05-28 07:50:10,005 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 07:50:10,544 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 07:50:10,562 - __main__ - INFO - Starting payment agent server on port 5006
+2025-05-28 07:54:40,515 - __main__ - INFO - Request f1e9288c-9f12-4d61-aca3-c8c3af6220bb: Starting payment processing
+2025-05-28 07:55:30,731 - __main__ - INFO - Created payment record: 22c14471-95ff-43a2-bfec-0074154d908c
+2025-05-28 07:55:31,234 - __main__ - INFO - Mocking PayChangu API response for demo
+2025-05-28 07:55:31,693 - __main__ - INFO - Request f1e9288c-9f12-4d61-aca3-c8c3af6220bb: Payment initiated successfully
+2025-05-28 07:55:34,095 - __main__ - INFO - Updated payment 22c14471-95ff-43a2-bfec-0074154d908c to status: processing
+2025-05-28 07:56:27,526 - __main__ - INFO - Request ce68a813-33a9-45dc-943a-f6cb13138a7c: Starting payment processing
+2025-05-28 07:56:36,168 - __main__ - INFO - Created payment record: 1329b8e8-4dab-4a29-a136-38fb58eeb6bf
+2025-05-28 07:56:36,172 - __main__ - INFO - Mocking PayChangu API response for demo
+2025-05-28 07:56:36,175 - __main__ - INFO - Request ce68a813-33a9-45dc-943a-f6cb13138a7c: Payment initiated successfully
+2025-05-28 07:56:38,151 - __main__ - INFO - Updated payment 1329b8e8-4dab-4a29-a136-38fb58eeb6bf to status: processing
+2025-05-28 09:02:57,317 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 09:02:57,480 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 09:02:57,497 - __main__ - INFO - Starting payment agent server on port 5006
+2025-05-28 11:34:54,955 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 11:34:55,018 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 11:34:55,021 - __main__ - INFO - Starting payment agent server on port 5006
+2025-05-28 12:49:26,691 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 12:49:26,760 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 12:49:26,764 - __main__ - INFO - Starting payment agent server on port 5006
+2025-05-28 12:50:51,902 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 12:50:51,965 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 12:50:51,969 - __main__ - INFO - Starting payment agent server on port 5006
+2025-05-28 12:52:55,856 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 12:52:55,920 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 12:52:55,923 - __main__ - INFO - Starting payment agent server on port 5006
+2025-05-28 14:44:28,651 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 14:44:28,884 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 14:44:28,887 - __main__ - INFO - Starting payment agent server on port 5006
+2025-05-28 14:58:25,035 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 14:58:25,103 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 14:58:25,105 - __main__ - INFO - Starting payment agent server on port 5006
+2025-05-28 15:22:59,638 - __main__ - INFO - Firebase initialized successfully
+2025-05-28 15:22:59,705 - __main__ - INFO - LLM client initialized with provider: groq
+2025-05-28 15:22:59,709 - __main__ - INFO - Starting payment agent server on port 5006
+2025-06-07 10:13:24,706 - __main__ - INFO - Firebase initialized successfully
+2025-06-07 10:13:24,809 - __main__ - INFO - LLM client initialized with provider: groq
+2025-06-07 10:13:24,817 - __main__ - INFO - Starting payment agent server on port 5006

@@ -1,0 +1,492 @@
+/* Profile Section Styles */
+.profile-wrapper {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+.profile-header {
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 20px;
+}
+
+.profile-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.profile-icon {
+    color: var(--primary);
+    font-size: 24px;
+}
+
+.profile-description {
+    color: var(--text-secondary);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.profile-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.profile-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.profile-edit-btn, 
+.profile-save-btn,
+.profile-cancel-btn {
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.profile-edit-btn {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+}
+
+.profile-edit-btn:hover {
+    background-color: var(--primary-dark);
+}
+
+.profile-save-btn {
+    background-color: var(--success);
+    color: white;
+    border: none;
+}
+
+.profile-save-btn:hover {
+    opacity: 0.9;
+}
+
+.profile-cancel-btn {
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+}
+
+.profile-cancel-btn:hover {
+    background-color: rgba(240, 246, 252, 0.1);
+}
+
+.profile-section {
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.profile-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.profile-section-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-section-title i {
+    color: var(--primary);
+    width: 24px;
+    text-align: center;
+}
+
+/* Profile Picture Section */
+.profile-picture-section {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.profile-picture-container {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.profile-picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--primary);
+}
+
+.profile-picture-edit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: var(--bg-dark);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.profile-picture-edit:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+.profile-picture-edit input[type="file"] {
+    display: none;
+}
+
+.profile-picture-edit label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.profile-basic-info {
+    flex: 1;
+}
+
+.profile-name {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--text-primary);
+}
+
+.profile-email {
+    font-size: 15px;
+    color: var(--text-secondary);
+}
+
+.profile-input {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: var(--bg-dark);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    color: var(--text-primary);
+    font-size: 14px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.profile-input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(47, 129, 247, 0.3);
+}
+
+/* Subjects Section */
+.subjects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.subject-tag {
+    background-color: rgba(47, 129, 247, 0.1);
+    color: var(--primary);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.remove-subject-btn {
+    background: none;
+    border: none;
+    color: var(--error);
+    cursor: pointer;
+    font-size: 12px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.add-subject-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.add-subject-btn {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.add-subject-btn:hover {
+    background-color: var(--primary-dark);
+}
+
+/* Education Section */
+.education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.education-item {
+    background-color: rgba(240, 246, 252, 0.03);
+    padding: 12px 15px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove-education-btn {
+    background: none;
+    border: none;
+    color: var(--error);
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.add-education-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.add-education-btn {
+    grid-column: span 3;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.add-education-btn:hover {
+    background-color: var(--primary-dark);
+}
+
+/* Availability Section */
+.availability-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.availability-day {
+    background-color: rgba(240, 246, 252, 0.03);
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+}
+
+.availability-day h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: var(--text-primary);
+}
+
+.availability-slot {
+    display: block;
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 8px;
+    background-color: var(--bg-dark);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    color: var(--text-secondary);
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.availability-slot:hover {
+    background-color: rgba(240, 246, 252, 0.1);
+}
+
+.availability-slot.selected {
+    background-color: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.availability-day-display {
+    background-color: rgba(240, 246, 252, 0.03);
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+/* Hourly Rate Section */
+.hourly-rate-edit {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hourly-rate-edit input {
+    max-width: 120px;
+}
+
+.hourly-rate-edit span {
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.hourly-rate-display {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Bio Section */
+.profile-textarea {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--bg-dark);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    color: var(--text-primary);
+    font-size: 14px;
+    line-height: 1.6;
+    resize: vertical;
+    min-height: 120px;
+    transition: all 0.3s ease;
+}
+
+.profile-textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(47, 129, 247, 0.3);
+}
+
+.profile-bio {
+    white-space: pre-line;
+    line-height: 1.6;
+}
+
+.no-data-message {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-picture-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .add-education-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .add-education-btn {
+        grid-column: span 1;
+    }
+    
+    .profile-card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .profile-actions {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .profile-edit-btn,
+    .profile-save-btn,
+    .profile-cancel-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .availability-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .profile-title {
+        font-size: 24px;
+    }
+    
+    .profile-subtitle {
+        font-size: 18px;
+    }
+}

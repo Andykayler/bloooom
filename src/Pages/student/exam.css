@@ -1,0 +1,357 @@
+/* Hillary Container Styles */
+.hillary-container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 20px;
+    height: 100vh;
+    background-color: var(--bg-color);
+}
+
+.hillary-content {
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.hillary-exam-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Loading and Error States */
+.hillary-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    color: var(--text-primary);
+    height: 200px;
+}
+
+.hillary-spinner {
+    animation: hillary-spin 1s linear infinite;
+}
+
+@keyframes hillary-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.hillary-error-message {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--error-color);
+    padding: 20px;
+    background-color: var(--error-bg);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.hillary-error-icon {
+    font-size: 24px;
+}
+
+/* Hidden Elements */
+.hillary-hidden-video,
+.hillary-hidden-canvas {
+    display: none;
+}
+
+/* Exam Header */
+.hillary-exam-header {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.hillary-exam-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: var(--text-primary);
+}
+
+.hillary-question-count,
+.hillary-time-remaining {
+    font-size: 16px;
+    color: var(--text-secondary);
+    margin: 5px 0;
+}
+
+/* Question Container */
+.hillary-question-container {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 2px solid var(--primary-color);
+    margin-bottom: 30px;
+}
+
+.hillary-question-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+    line-height: 1.5;
+}
+
+.hillary-question-meta {
+    margin: 10px 0;
+    color: var(--text-secondary);
+    font-size: 15px;
+}
+
+/* Options */
+.hillary-option {
+    margin: 15px 0;
+    padding: 15px;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.hillary-option:hover {
+    border-color: var(--primary-color);
+    background-color: var(--primary-light);
+}
+
+.hillary-option-selected {
+    border-color: var(--primary-color);
+    background-color: var(--primary-light);
+}
+
+.hillary-option-radio {
+    margin-right: 15px;
+    transform: scale(1.2);
+}
+
+.hillary-option-text {
+    font-size: 16px;
+    color: var(--text-primary);
+}
+
+/* Submit Button */
+.hillary-submit-btn {
+    margin-top: 25px;
+    padding: 12px 24px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.hillary-submit-btn:hover {
+    background-color: var(--primary-dark);
+}
+
+.hillary-submit-disabled {
+    background-color: var(--disabled-color);
+    cursor: not-allowed;
+}
+
+/* Proctoring Status */
+.hillary-proctoring-status {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--card-bg);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid var(--border-color);
+}
+
+.hillary-proctoring-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.hillary-proctoring-icon {
+    font-size: 16px;
+}
+
+.hillary-proctoring-active {
+    color: var(--success-color);
+}
+
+.hillary-proctoring-inactive {
+    color: var(--error-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hillary-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .hillary-proctoring-status {
+        position: static;
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+/* Additional CSS for Short Answer and Essay Questions */
+
+.hillary-text-answer-container {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.hillary-answer-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 16px;
+}
+
+.hillary-short-answer-input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #e1e5e9;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+  background-color: #ffffff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.hillary-short-answer-input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.hillary-essay-textarea {
+  width: 100%;
+  padding: 16px;
+  border: 2px solid #e1e5e9;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+  background-color: #ffffff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  resize: vertical;
+  min-height: 200px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.hillary-essay-textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.hillary-character-count,
+.hillary-word-count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.hillary-character-count {
+  justify-content: flex-end;
+}
+
+.hillary-question-meta {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+  border-left: 4px solid #007bff;
+}
+
+.hillary-question-meta p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #495057;
+}
+
+.hillary-question-meta p:first-child {
+  margin-top: 0;
+}
+
+.hillary-question-meta p:last-child {
+  margin-bottom: 0;
+}
+
+.hillary-options-container {
+  margin: 20px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hillary-short-answer-input,
+  .hillary-essay-textarea {
+    font-size: 16px; /* Prevents zoom on iOS */
+    padding: 14px;
+  }
+  
+  .hillary-essay-textarea {
+    min-height: 150px;
+  }
+  
+  .hillary-question-meta {
+    padding: 12px;
+  }
+}
+
+/* Enhanced styling for better UX */
+.hillary-short-answer-input:disabled,
+.hillary-essay-textarea:disabled {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  cursor: not-allowed;
+}
+
+.hillary-text-answer-container .hillary-answer-label::after {
+  content: " *";
+  color: #dc3545;
+  font-weight: bold;
+}
+
+/* Character/word count warning styles */
+.hillary-character-count.warning,
+.hillary-word-count.warning {
+  color: #ffc107;
+}
+
+.hillary-character-count.danger,
+.hillary-word-count.danger {
+  color: #dc3545;
+}
+.hillary-proctoring-violations {
+  display: flex;
+  align-items: center;
+  color: #d32f2f;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.hillary-error-icon {
+  margin-right: 8px;
+}
+
+.hillary-hidden-video, .hillary-hidden-canvas {
+  display: none;
+}
